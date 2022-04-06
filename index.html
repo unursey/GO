@@ -3,92 +3,243 @@
 <head>
     <meta charset="UTF-8">
   <link rel="icon" type="image/svg+xml" href="img/icon.svg">
-    <title>Modul01 Lesson04</title>
+    <title>Modul01 Lesson06</title>
 </head>
-<body style="background-color: pink">
+<body>
+  <header>
+    <nav>
+      <h2>Меню</h2>
+      <img src="img/logo.svg" alt="GO" height="66">
+      <ul>
+        <li><a href="#rooms">Залы</a></li>
+        <li><a href="#about">О нас</a></li>
+        <li><a href="#booking">Бронь</a></li>
+        <li><a href="#reviews">Отзывы</a></li>
+        <li><a href="#contacts">Контакты</a></li>
+      </ul>
+    </nav>
+  </header>
 
+  <main>
+    <section>
+      <h1>GAME OVER</h1>
+      <p>У нас есть всё для классного отдыха с друзьями!</p>
+      <ul>
+        <li>
+          <figure>
+            <img src="img/vr.jpg" alt="VR очки" height="228">
+            <figcaption>VR очки</figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure>
+            <img src="img/audio.jpg" alt="Аудио-система 5.1 с отличным звуком" height="228">
+            <figcaption>Аудио-система 5.1 с отличным звуком</figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure>
+            <img src="img/micro.jpg" alt="Караоке (4 микрофона)" height="228">
+            <figcaption>Караоке (4 микрофона)</figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure>
+            <img src="img/game.jpg" alt="Настольные игры" height="228">
+            <figcaption>Настольные игры</figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure>
+            <img src="img/netflix.jpg" alt="Кино сервисы Netflix, IVI, MegoGo, КиноПоиск, Okko" height="228">
+            <figcaption>Кино сервисы Netflix, IVI, MegoGo, КиноПоиск, Okko</figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure>
+            <img src="img/sony.jpg" alt="PlayStation 5" height="228">
+            <figcaption>PlayStation 5</figcaption>
+          </figure>
+        </li>
+      </ul>
+    </section>
 
-  <img src="img/logo.svg" alt="GO" height="66">
+    <section id="rooms">
+      <h2>Наши залы</h2>
+      <ol>
+        <li>80's vibes</li>
+        <li>Star wars</li>
+        <li>Wild west</li>
+        <li>Neon style</li>
+      </ol>
+    </section>
 
-  <h1>GAME OVER</h1>
+    <section id="booking">
+      <h3>ЗАБРОНИРОВАТЬ ЗАЛ ПРОСТО</h3>
+        <form id="my-form"
+              action="https://jsonplaceholder.typicode.com/posts"
+              method="POST">
 
-  <div>
-    <h2>Меню</h2>
-    <ul>
-      <li><a href="#rooms">Залы</a></li>
-      <li><a href="#about">О нас</a></li>
-      <li><a href="">Бронь</a></li>
-      <li><a href="">Отзывы</a></li>
-      <li><a href="#contacts">Контакты</a></li>
-    </ul>
-  </div>
+          <fieldset>
+            <label>
+              <input type="radio" name="room" value="80s-vibes">80'S VIBES
+            </label>
 
-  <div>
-    <h2>У нас есть всё для классного отдыха с друзьями!</h2>
-    <ul>
-      <li>
-        <figure>
-          <img src="img/vr.jpg" alt="VR очки" height="228">
-          <figcaption>VR очки</figcaption>
-        </figure>
-      </li>
-      <li>
-        <figure>
-          <img src="img/audio.jpg" alt="Аудио-система 5.1 с отличным звуком" height="228">
-          <figcaption>Аудио-система 5.1 с отличным звуком</figcaption>
-        </figure>
-      </li>
-      <li>
-        <figure>
-          <img src="img/micro.jpg" alt="Караоке (4 микрофона)" height="228">
-          <figcaption>Караоке (4 микрофона)</figcaption>
-        </figure>
-      </li>
-      <li>
-        <figure>
-          <img src="img/game.jpg" alt="Настольные игры" height="228">
-          <figcaption>Настольные игры</figcaption>
-        </figure>
-      </li>
-      <li>
-        <figure>
-          <img src="img/netflix.jpg" alt="Кино сервисы Netflix, IVI, MegoGo, КиноПоиск, Okko" height="228">
-          <figcaption>Кино сервисы Netflix, IVI, MegoGo, КиноПоиск, Okko</figcaption>
-        </figure>
-      </li>
-      <li>
-        <figure>
-          <img src="img/sony.jpg" alt="PlayStation 5" height="228">
-          <figcaption>PlayStation 5</figcaption>
-        </figure>
-      </li>
-    </ul>
-  </div>
+            <label>
+              <input type="radio" name="room" value="star-wars">STAR WARS
+            </label>
 
-  <div class="block" id="rooms">
-    <h2>Наши залы</h2>
-    <ol>
-      <li>80's vibes</li>
-      <li>Star wars</li>
-      <li>Wild west</li>
-      <li>Neon style</li>
-    </ol>
-  </div>
+            <label>
+              <input type="radio" name="room" value="wild-west">WILD WEST
+            </label>
 
-  <div class="block" id="about">
-    <h2>О нас</h2>
+            <label>
+              <input type="radio" name="room" value="neon-style">NEON STYLE
+            </label>
+          </fieldset>
 
-    <p>Для наших гостей мы создали <i>концептуально новое игровое пространство виртуальной реальности</i> в центральной части города.</p>
+          <fieldset>
+            <legend>Собери набор развлечений</legend>
+            <fieldset>
+              <legend>Приставка:</legend>
+              <label>
+                <input type="radio" name="game-console" value="playStation">PlayStation
+              </label>
 
-    <p>Каждый день мы стараемся создавать для вас самую лучшую игровую атмосферу и радовать Вас топовыми игровыми разработками со всего мира.</p>
+              <label>
+                <input type="radio" name="game-console" value="sega-mega-drive">Sega Mega Drive
+              </label>
 
-    <blockquote>
-      <p><b>GAME OVER</b> - это место незабываемых впечатлений</p>
-      <p><cite>Аркадий Абакшин, создатель игровой территории GAME OVER</cite></p>
-    </blockquote>
-  </div>
+              <label>
+                <input type="radio" name="game-console" value="x-box-one-s">X-box One S
+              </label>
 
-  <div class="block" id="contacts">
+              <label>
+                <input type="radio" name="game-console" value="dendy">Dendy
+              </label>
+            </fieldset>
+
+            <fieldset>
+              <legend>Настольные игры:</legend>
+              <label>
+                <input type="checkbox" name="board-games" value="jenga">Jenga
+              </label>
+
+              <label>
+                <input type="checkbox" name="board-games" value="monopoly">Monopoly
+              </label>
+
+              <label>
+                <input type="checkbox" name="board-games" value="manchkin">Манчкин
+              </label>
+
+              <label>
+                <input type="checkbox" name="board-games" value="alias">Alias
+              </label>
+            </fieldset>
+
+            <fieldset>
+              <legend>Дополнительно:</legend>
+              <label>
+                <input type="checkbox" name="add" value="karaoke">Караоке
+              </label>
+
+              <label>
+                <input type="checkbox" name="add" value="vr">VR
+              </label>
+            </fieldset>
+          </fieldset>
+
+          <fieldset>
+            <legend>Выбери дату и время</legend>
+            <label>
+              <input type="date" name="date" value="" placeholder="Дата" required>
+            </label>
+
+            <label>
+              <input type="time" name="time" placeholder="Время" value="" required>
+            </label>
+
+            <label>
+              <input type="number" name="count" placeholder="Сколько человек" value="" required>
+            </label>
+
+            <label>
+              Имя
+              <input type="text" name="name" value="" required>
+            </label>
+
+            <label>
+              Фамилия
+              <input type="text" name="surname" value="" required>
+            </label>
+
+            <label>
+              Телефон
+              <input type="tel" name="tel" value="" required>
+            </label>
+
+            <label>
+              E-mail
+              <input type="mail" name="mail" value="" required>
+            </label>
+          </fieldset>
+
+          <button type="submit">ЗАБРОНИРОВАТЬ</button>
+
+        </form>
+    </section>
+
+    <article id="about">
+      <h2>О нас</h2>
+
+      <p>Для наших гостей мы создали <i>концептуально новое игровое пространство виртуальной реальности</i> в центральной части города.</p>
+
+      <p>Каждый день мы стараемся создавать для вас самую лучшую игровую атмосферу и радовать Вас топовыми игровыми разработками со всего мира.</p>
+
+      <blockquote>
+        <p><b>GAME OVER</b> - это место незабываемых впечатлений</p>
+        <p><cite>Аркадий Абакшин, создатель игровой территории GAME OVER</cite></p>
+      </blockquote>
+    </article>
+
+    <section id="reviews">
+      <h2>ОТЗЫВЫ ПОСЕТИТЕЛЕЙ</h2>
+        <ul>
+          <li>
+            <figure>
+              <img src="img/3.jpg" alt="Макс Самойлов" height="200">
+              <figcaption>Макс Самойлов</figcaption>
+              <p>
+                Отмечали здесь день рождения с компанией друзей, все было очень круто! VR очки это просто бомба, никогда еще я не был в таком полном игровом погружении. Правда другана укачало. Сервис на высоте!
+              </p>
+            </figure>
+          </li>
+
+          <li>
+            <figure>
+              <img src="img/1.jpg" alt="Оксана Григорьева" height="200">
+              <figcaption>Оксана Григорьева</figcaption>
+              <p>
+                Были в комнате Дикий Запад, пели в караоке под Шакиру, отличный получился корпоратив! У нас в городе больше нет подобных заведений
+              </p>
+            </figure>
+          </li>
+
+          <li>
+            <figure>
+              <img src="img/2.jpg" alt="Никита Ященко" height="200">
+              <figcaption>Никита Ященко</figcaption>
+              <p>
+                Немного подвисала игра в VR очках, а так все норм. Крутое оформление комнаты в стиле звездных войн, попал в атмосферу космоса
+              </p>
+            </figure>
+          </li>
+        </ul>
+    </section>
+  </main>
+
+  <footer>
     <h2>Контакты</h2>
 
     <p>г. Москва ул. Аквамарина, 16</p>
@@ -101,7 +252,7 @@
       <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
       <li><a href="https://telegram.org" target="_blank">Telegram</a></li>
     </ul>
-  </div>
+  </footer>
 
 
 </body>
