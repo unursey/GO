@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
+  <meta charset="UTF-8">
   <link rel="icon" type="image/svg+xml" href="img/icon.svg">
-    <title>Modul01 Lesson06</title>
+  <title>Modul02 Lesson01</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+
+<div class="wrapper">
   <header>
     <nav>
       <h2>Меню</h2>
@@ -81,117 +85,117 @@
 
     <section id="booking">
       <h3>ЗАБРОНИРОВАТЬ ЗАЛ ПРОСТО</h3>
-        <form id="my-form"
-              action="https://jsonplaceholder.typicode.com/posts"
-              method="POST">
+      <form id="my-form"
+            action="https://jsonplaceholder.typicode.com/posts"
+            method="POST">
 
+        <fieldset>
+          <label>
+            <input type="radio" name="room" value="80s-vibes">80'S VIBES
+          </label>
+
+          <label>
+            <input type="radio" name="room" value="star-wars">STAR WARS
+          </label>
+
+          <label>
+            <input type="radio" name="room" value="wild-west">WILD WEST
+          </label>
+
+          <label>
+            <input type="radio" name="room" value="neon-style">NEON STYLE
+          </label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Собери набор развлечений</legend>
           <fieldset>
+            <legend>Приставка:</legend>
             <label>
-              <input type="radio" name="room" value="80s-vibes">80'S VIBES
+              <input type="radio" name="game-console" value="playStation">PlayStation
             </label>
 
             <label>
-              <input type="radio" name="room" value="star-wars">STAR WARS
+              <input type="radio" name="game-console" value="sega-mega-drive">Sega Mega Drive
             </label>
 
             <label>
-              <input type="radio" name="room" value="wild-west">WILD WEST
+              <input type="radio" name="game-console" value="x-box-one-s">X-box One S
             </label>
 
             <label>
-              <input type="radio" name="room" value="neon-style">NEON STYLE
+              <input type="radio" name="game-console" value="dendy">Dendy
             </label>
           </fieldset>
 
           <fieldset>
-            <legend>Собери набор развлечений</legend>
-            <fieldset>
-              <legend>Приставка:</legend>
-              <label>
-                <input type="radio" name="game-console" value="playStation">PlayStation
-              </label>
+            <legend>Настольные игры:</legend>
+            <label>
+              <input type="checkbox" name="board-games" value="jenga">Jenga
+            </label>
 
-              <label>
-                <input type="radio" name="game-console" value="sega-mega-drive">Sega Mega Drive
-              </label>
+            <label>
+              <input type="checkbox" name="board-games" value="monopoly">Monopoly
+            </label>
 
-              <label>
-                <input type="radio" name="game-console" value="x-box-one-s">X-box One S
-              </label>
+            <label>
+              <input type="checkbox" name="board-games" value="manchkin">Манчкин
+            </label>
 
-              <label>
-                <input type="radio" name="game-console" value="dendy">Dendy
-              </label>
-            </fieldset>
-
-            <fieldset>
-              <legend>Настольные игры:</legend>
-              <label>
-                <input type="checkbox" name="board-games" value="jenga">Jenga
-              </label>
-
-              <label>
-                <input type="checkbox" name="board-games" value="monopoly">Monopoly
-              </label>
-
-              <label>
-                <input type="checkbox" name="board-games" value="manchkin">Манчкин
-              </label>
-
-              <label>
-                <input type="checkbox" name="board-games" value="alias">Alias
-              </label>
-            </fieldset>
-
-            <fieldset>
-              <legend>Дополнительно:</legend>
-              <label>
-                <input type="checkbox" name="add" value="karaoke">Караоке
-              </label>
-
-              <label>
-                <input type="checkbox" name="add" value="vr">VR
-              </label>
-            </fieldset>
+            <label>
+              <input type="checkbox" name="board-games" value="alias">Alias
+            </label>
           </fieldset>
 
           <fieldset>
-            <legend>Выбери дату и время</legend>
+            <legend>Дополнительно:</legend>
             <label>
-              <input type="date" name="date" value="" required>
+              <input type="checkbox" name="add" value="karaoke">Караоке
             </label>
 
             <label>
-              <input type="time" name="time" value="" required>
-            </label>
-
-            <label>
-              <input type="number" name="count" placeholder="Сколько человек" value="" required>
-            </label>
-
-            <label>
-              Имя
-              <input type="text" name="name" value="" required>
-            </label>
-
-            <label>
-              Фамилия
-              <input type="text" name="surname" value="" required>
-            </label>
-
-            <label>
-              Телефон
-              <input type="tel" name="tel" value="" required>
-            </label>
-
-            <label>
-              E-mail
-              <input type="email" name="mail" value="" required>
+              <input type="checkbox" name="add" value="vr">VR
             </label>
           </fieldset>
+        </fieldset>
 
-          <button type="submit">ЗАБРОНИРОВАТЬ</button>
-        </form>
+        <fieldset>
+          <legend>Выбери дату и время</legend>
+          <label>
+            <input type="date" name="date" value="" required>
+          </label>
+
+          <label>
+            <input type="time" name="time" value="" required>
+          </label>
+
+          <label>
+            <input type="number" name="count" placeholder="Сколько человек" value="" required>
+          </label>
+
+          <label>
+            Имя
+            <input type="text" name="name" value="" required>
+          </label>
+
+          <label>
+            Фамилия
+            <input type="text" name="surname" value="" required>
+          </label>
+
+          <label>
+            Телефон
+            <input type="tel" name="tel" value="" required>
+          </label>
+
+          <label>
+            E-mail
+            <input type="email" name="mail" value="" required>
+          </label>
+        </fieldset>
+
+        <button type="submit">ЗАБРОНИРОВАТЬ</button>
+      </form>
     </section>
 
     <article id="about">
@@ -209,37 +213,37 @@
 
     <section id="reviews">
       <h2>ОТЗЫВЫ ПОСЕТИТЕЛЕЙ</h2>
-        <ul>
-          <li>
-            <figure>
-              <img src="img/3.jpg" alt="Макс Самойлов" height="200">
-              <figcaption>Макс Самойлов</figcaption>
-            </figure>
-            <p>
-              Отмечали здесь день рождения с компанией друзей, все было очень круто! VR очки это просто бомба, никогда еще я не был в таком полном игровом погружении. Правда другана укачало. Сервис на высоте!
-            </p>
-          </li>
+      <ul>
+        <li>
+          <figure>
+            <img src="img/3.jpg" alt="Макс Самойлов" height="200">
+            <figcaption>Макс Самойлов</figcaption>
+          </figure>
+          <p>
+            Отмечали здесь день рождения с компанией друзей, все было очень круто! VR очки это просто бомба, никогда еще я не был в таком полном игровом погружении. Правда другана укачало. Сервис на высоте!
+          </p>
+        </li>
 
-          <li>
-            <figure>
-              <img src="img/1.jpg" alt="Оксана Григорьева" height="200">
-              <figcaption>Оксана Григорьева</figcaption>
-            </figure>
-            <p>
-              Были в комнате Дикий Запад, пели в караоке под Шакиру, отличный получился корпоратив! У нас в городе больше нет подобных заведений
-            </p>
-          </li>
+        <li>
+          <figure>
+            <img src="img/1.jpg" alt="Оксана Григорьева" height="200">
+            <figcaption>Оксана Григорьева</figcaption>
+          </figure>
+          <p>
+            Были в комнате Дикий Запад, пели в караоке под Шакиру, отличный получился корпоратив! У нас в городе больше нет подобных заведений
+          </p>
+        </li>
 
-          <li>
-            <figure>
-              <img src="img/2.jpg" alt="Никита Ященко" height="200">
-              <figcaption>Никита Ященко</figcaption>
-            </figure>
-            <p>
-              Немного подвисала игра в VR очках, а так все норм. Крутое оформление комнаты в стиле звездных войн, попал в атмосферу космоса
-            </p>
-          </li>
-        </ul>
+        <li>
+          <figure>
+            <img src="img/2.jpg" alt="Никита Ященко" height="200">
+            <figcaption>Никита Ященко</figcaption>
+          </figure>
+          <p>
+            Немного подвисала игра в VR очках, а так все норм. Крутое оформление комнаты в стиле звездных войн, попал в атмосферу космоса
+          </p>
+        </li>
+      </ul>
     </section>
   </main>
 
@@ -257,6 +261,7 @@
       <li><a href="https://telegram.org" target="_blank">Telegram</a></li>
     </ul>
   </footer>
+</div>
 
 
 </body>
