@@ -1,0 +1,38 @@
+.answer li {
+  background-color: #fff;
+  color: #1C1A1A;
+  font-weight: 700;
+  font-size: 24px;
+  padding: 30px 70px;
+  margin-bottom: 20px;
+  list-style-type: none;
+  display: flex;
+  position: relative;
+}
+
+.answer li:nth-child(even) {
+  color: #FFFFFF;
+  background-color: #440F51;
+}
+
+
+.answer li:nth-child(even):after {
+  content: '';
+  position: absolute;
+  background-image: url('./img/open.svg');
+  width: 70px;
+  height: 70px;
+  right: 120px;
+
+}
+
+.answer li:nth-child(odd):after {
+  content: '';
+  position: absolute;
+  background-image: url('./img/open-purple.svg');
+  width: 70px;
+  height: 70px;
+  right: 120px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
