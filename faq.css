@@ -1,4 +1,4 @@
-.answer li {
+.question__item {
   background-color: #fff;
   color: #1C1A1A;
   font-weight: 700;
@@ -10,13 +10,13 @@
   position: relative;
 }
 
-.answer li:nth-child(even) {
+.question__item:nth-child(even) {
   color: #FFFFFF;
   background-color: #440F51;
 }
 
 
-.answer li:nth-child(even):after {
+.question__item:nth-child(even):after {
   content: '';
   position: absolute;
   background-image: url('./img/open.svg');
@@ -26,7 +26,7 @@
 
 }
 
-.answer li:nth-child(odd):after {
+.question__item:nth-child(odd):after {
   content: '';
   position: absolute;
   background-image: url('./img/open-purple.svg');
