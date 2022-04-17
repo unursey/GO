@@ -1,13 +1,25 @@
+.question {
+  padding: 30px 0;
+}
+
+.question__title {
+  margin: 0;
+}
+
 .question__item {
   background-color: #fff;
   color: #1C1A1A;
   font-weight: 700;
   font-size: 24px;
   padding: 30px 70px;
-  margin-bottom: 20px;
   list-style-type: none;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+.question__item:not(:last-child) {
+  margin-bottom: 20px;
 }
 
 .question__item:nth-child(even) {
@@ -15,19 +27,16 @@
   background-color: #440F51;
 }
 
-
 .question__item:nth-child(even):after {
   content: '';
-  background-image: url('./img/open.svg');
-  width: 70px;
-  height: 70px;
+  background-image: url('../img/open.svg');
+  width: 46px;
+  height: 46px;
 }
 
 .question__item:nth-child(odd):after {
   content: '';
-  background-image: url('./img/open-purple.svg');
-  width: 70px;
-  height: 70px;
-  background-repeat: no-repeat;
-  background-size: contain;
+  background-image: url('../img/open-purple.svg');
+  width: 46px;
+  height: 46px;
 }
