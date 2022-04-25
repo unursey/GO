@@ -1,5 +1,5 @@
 .contacts {
-  padding-top: 91px;
+  padding-top: 100px;
 }
 
 .contacts__title {
@@ -12,7 +12,7 @@
   text-transform: uppercase;
 }
 
-.contacts__text {
+.contacts__address {
   max-width: 300px;
   font-size: 24px;
   font-weight: 700;
@@ -21,12 +21,19 @@
   position: relative;
 }
 
+.contacts__phone, .contacts__mail {
+  margin-bottom: 24px;
+  display: block;
+}
+
+.contacts__nav {
+  margin: 40px 0 150px 0;
+}
+
 .contacts__list {
   list-style-type: none;
   display: flex;
   padding: 0;
-  margin: 41px 0 150px 0;
-
 }
 
 .contacts__item {
@@ -60,3 +67,4 @@
   position: absolute;
   left: -2px;
 }
+

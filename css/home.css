@@ -19,7 +19,7 @@
   margin: 0 100px;
 }
 
-.home__title:after {
+.home:after {
   position: absolute;
   content: url("../img/home/man.png");
   left: 505px;

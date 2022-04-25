@@ -11,9 +11,9 @@
 
 <div class="wrapper">
   <header class="hide">
+    <h2>Меню</h2>
+    <img src="img/logo.svg" alt="GO" height="66">
     <nav>
-      <h2>Меню</h2>
-      <img src="img/logo.svg" alt="GO" height="66">
       <ul>
         <li><a href="#room">Залы</a></li>
         <li><a href="#about">О нас</a></li>
@@ -80,10 +80,25 @@
     <section class='room' id="room">
       <h2 class="room__title">Наши залы</h2>
       <ol class="room__list">
-        <li class="room__item room__vibes">80's vibes</li>
-        <li class="room__item room__star">Star wars</li>
-        <li class="room__item room__wild">Wild west</li>
-        <li class="room__item room__neon">Neon style</li>
+        <li class="room__item">
+          <img class='room__img' src="img/room/vibes.jpg" alt="Комната в стиле 80-х">
+          <p class="room__text">80's vibes</p>
+        </li>
+
+        <li class="room__item">
+          <img class='room__img' src="img/room/star.jpg" alt="Комната в стиле звездных войн">
+          <p class="room__text">Star wars</p>
+        </li>
+
+        <li class="room__item">
+          <img class='room__img' src="img/room/wild.jpg" alt="Комната в стиле дикого запада">
+          <p class="room__text">Wild west</p>
+        </li>
+
+        <li class="room__item">
+          <img class='room__img' src="img/room/neon.jpg" alt="Комната в неоновом стиле">
+          <p class="room__text">Neon style</p>
+        </li>
       </ol>
     </section>
 
@@ -211,7 +226,15 @@
 
       <blockquote class="about__blockquote">
         <p class="about__big-text">GAME OVER — это место незабываемых впечатлений</p>
-        <p class="about__text about__cite">Аркадий Абакшин, создатель игровой территории GAME OVER</p>
+
+        <div class="about__sign">
+          <figure>
+            <img class="about__photo" src="img/about/arkadii.jpg" alt="Аркадий Aбакшин">
+          </figure>
+
+          <p class="about__text about__cite">Аркадий Абакшин, создатель игровой территории GAME OVER</p>
+        </div>
+
       </blockquote>
     </article>
 
@@ -289,16 +312,20 @@
   <footer class='contacts' id="contacts">
     <h2 class='contacts__title'>Контакты</h2>
 
-    <p class='contacts__text contacts__location'>г. Москва ул.Аквамарина, 16</p>
-    <p class='contacts__text contacts__phone'><a class='contacts__link' href="tel:89509302893">8 (950) 930 - 28 - 93</a></p>
-    <p class='contacts__text contacts__mail'><a class='contacts__link' href="mailto:GameOver@gmail.com">GameOver@gmail.com</a></p>
+    <div class="contacts__address">
+      <p class='contacts__location'>г. Москва ул.Аквамарина, 16</p>
+      <a class='contacts__link contacts__phone' href="tel:89509302893">8 (950) 930 - 28 - 93</a>
+      <a class='contacts__link contacts__mail' href="mailto:GameOver@gmail.com">GameOver@gmail.com</a>
+    </div>
 
-    <ul class='contacts__list'>
-      <li class='contacts__item'><a class='contacts__link' href="#" target="_blank"><img class='contacts__image' src="img/contacts/inst.svg" alt="Инстаграмм"></a></li>
-      <li class='contacts__item'><a class='contacts__link' href="https://www.vk.com" target="_blank"><img class='contacts__image' src="img/contacts/vk.svg" alt="Вконтакте"></a></li>
-      <li class='contacts__item'><a class='contacts__link' href="https://www.facebook.com" target="_blank"><img class='contacts__image' src="img/contacts/fb.svg" alt="Фэйсбук"></a></li>
-      <li class='contacts__item'><a class='contacts__link' href="https://telegram.org" target="_blank"><img class='contacts__image' src="img/contacts/tg.svg" alt="Телеграмм"></a></li>
-    </ul>
+    <nav class="contacts__nav">
+      <ul class='contacts__list'>
+        <li class='contacts__item'><a class='contacts__link' href="#" target="_blank"><img class='contacts__image' src="img/contacts/inst.svg" alt="Инстаграмм"></a></li>
+        <li class='contacts__item'><a class='contacts__link' href="https://www.vk.com" target="_blank"><img class='contacts__image' src="img/contacts/vk.svg" alt="Вконтакте"></a></li>
+        <li class='contacts__item'><a class='contacts__link' href="https://www.facebook.com" target="_blank"><img class='contacts__image' src="img/contacts/fb.svg" alt="Фэйсбук"></a></li>
+        <li class='contacts__item'><a class='contacts__link' href="https://telegram.org" target="_blank"><img class='contacts__image' src="img/contacts/tg.svg" alt="Телеграмм"></a></li>
+      </ul>
+    </nav>
   </footer>
 </div>
 

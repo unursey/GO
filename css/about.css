@@ -21,7 +21,6 @@
 }
 
 .about__blockquote {
-  max-width: 520px;
   margin: 0;
 }
 
@@ -33,7 +32,7 @@
   text-transform: uppercase;
   position: relative;
   padding-left: 30px;
-  margin-top: 59px;
+  margin-top: 60px;
 }
 
 .about__big-text:before {
@@ -50,19 +49,16 @@
   color: #6C0287;
 }
 
-.about__cite {
-  position: relative;
-  padding-left: 210px;
+.about__sign {
+  display: flex;
+  padding-left: 80px;
+  max-width: 520px;
 }
 
-.about__cite:before {
-  content: "";
-  background-image: url('../img/about/arkadii.jpg');
-  background-size: cover;
-  height: 80px;
+.about__photo {
   width: 80px;
+  height: 80px;
   border-radius: 50%;
-  margin-right: 30px;
-  position: absolute;
-  left: 100px;
+  object-fit: cover;
+  object-position: 0 -10px;
 }

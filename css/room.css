@@ -17,40 +17,23 @@
 }
 
 .room__item {
+  text-align: center;
+  margin-top: 60px;
+  position: relative;
+}
+
+.room__img {
+  height: 710px;
+  width: 1180px;
+}
+
+.room__text {
   font-size: 70px;
   font-weight: 700;
   line-height: 80px;
   text-transform: uppercase;
-  text-align: center;
-  height: 710px;
-  width: 1180px;
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  margin-top: 60px;
-  padding: 280px 450px 280px 450px;
+  position: absolute;
+  top: 200px;
+  left: 450px;
+  right: 450px;
 }
-
-/*.room__item:before {
-  content: '';
-  display: inline-block;
-  height: 100%;
-  vertical-align: middle;
-}*/
-
-.room__vibes {
-  background-image: url("../img/room/vibes.jpg");
-}
-
-.room__star {
-  background-image: url("../img/room/star.jpg");
-}
-
-.room__wild {
-  background-image: url("../img/room/wild.jpg");
-}
-
-.room__neon {
-  background-image: url("../img/room/neon.jpg");
-}
-
