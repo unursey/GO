@@ -3,16 +3,17 @@
 }
 
 body {
+  font-family: Arial, sans-serif;
   background-color: #1B1A1B;
   color: #FFFFFF;
 }
 
-blockquote {
-  text-transform: uppercase;
+.wrapper {
+  max-width: 1240px;
+  padding: 0 30px;
+  margin: 0 auto;
 }
 
-.wrapper {
-  width: 1200px;
-  padding: 30px;
-  margin: 0 auto;
+.hide {
+  display: none;
 }

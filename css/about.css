@@ -1,0 +1,68 @@
+.about {
+  padding-top: 100px;
+}
+
+.about__title {
+  margin-bottom: 50px;
+  margin-top: 0;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.about__text {
+  max-width: 500px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 40px;
+}
+
+.about__blockquote {
+  max-width: 520px;
+  margin: 0;
+}
+
+.about__big-text {
+  max-width: 450px;
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 50px;
+  text-transform: uppercase;
+  position: relative;
+  padding-left: 30px;
+  margin-top: 59px;
+}
+
+.about__big-text:before {
+  content: '“ ';
+  font-weight: 900;
+  color: #6C0287;
+  position: absolute;
+  left: -2px;
+}
+
+.about__big-text:after {
+  content: ' ”';
+  font-weight: 900;
+  color: #6C0287;
+}
+
+.about__cite {
+  position: relative;
+  padding-left: 210px;
+}
+
+.about__cite:before {
+  content: "";
+  background-image: url('../img/about/arkadii.jpg');
+  background-size: cover;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  margin-right: 30px;
+  position: absolute;
+  left: 100px;
+}
