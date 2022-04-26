@@ -3,7 +3,9 @@ html {
   position: relative;
 }
 
-* {
+*,
+*::before,
+*::after {
   box-sizing: inherit;
 }
 
