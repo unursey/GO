@@ -4,7 +4,6 @@
 
 .contacts__title {
   margin-bottom: 54px;
-  margin-top: 0;
   font-size: 40px;
   font-weight: 700;
   line-height: 50px;
@@ -31,9 +30,7 @@
 }
 
 .contacts__list {
-  list-style-type: none;
   display: flex;
-  padding: 0;
 }
 
 .contacts__item {
