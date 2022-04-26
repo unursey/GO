@@ -21,8 +21,8 @@
 .home:after {
   position: absolute;
   content: url("../img/home/man.png");
-  left: 505px;
-  top: 155px;
+  right: 0;
+  bottom: 0;
   z-index: 1;
 }
 
