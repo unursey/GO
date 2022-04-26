@@ -11,8 +11,8 @@
   text-align: center;
   margin-top: 60px;
   position: relative;
-  height: 710px;
-  width: 1180px;
+  min-height: 710px;
+  min-width: 1180px;
 }
 
 .room__text {

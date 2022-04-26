@@ -1,5 +1,5 @@
 @import "normalize.css";
-@import "../style.css";
+@import "style.css";
 @import "faq.css";
 @import "home.css";
 @import "room.css";
