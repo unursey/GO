@@ -8,21 +8,12 @@
   line-height: 50px;
   text-align: center;
   text-transform: uppercase;
-
-}
-
-.room__list {
-  padding: 0;
-  list-style-type: none;
 }
 
 .room__item {
   text-align: center;
   margin-top: 60px;
   position: relative;
-}
-
-.room__img {
   height: 710px;
   width: 1180px;
 }
@@ -33,7 +24,7 @@
   line-height: 80px;
   text-transform: uppercase;
   position: absolute;
-  top: 200px;
+  top: 280px;
   left: 450px;
   right: 450px;
 }
