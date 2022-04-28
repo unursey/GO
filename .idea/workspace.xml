@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a988a673-d533-43a7-a149-bd944322b397" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/css/basic.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Lesson09.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/about.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/faq.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/question.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/audio.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/range/audio.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/game.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/range/game.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/header/logo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/micro.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/range/micro.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/netflix.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/range/netflix.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/open-purple.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/question/open-purple.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/open.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/question/open.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/sony.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/range/sony.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/vr.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/range/vr.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +27,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -62,7 +45,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1651099713813</updated>
-      <workItem from="1651099716125" duration="4109000" />
+      <workItem from="1651099716125" duration="4493000" />
     </task>
     <servers />
   </component>

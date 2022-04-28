@@ -21,7 +21,7 @@
   position: relative;
 }
 
-.contacts__phone, .contacts__mail, .contacts__location {
+.contacts__link_phone, .contacts__link_mail, .contacts__location {
   margin-bottom: 24px;
   display: block;
 }
@@ -54,13 +54,13 @@
   left: -2px;
 }
 
-.contacts__phone:before {
+.contacts__link_phone:before {
   content: url("../img/contacts/phone.svg");
   position: absolute;
   left: -2px;
 }
 
-.contacts__mail:before {
+.contacts__link_mail:before {
   content: url("../img/contacts/envelope.svg");
   position: absolute;
   left: -2px;
