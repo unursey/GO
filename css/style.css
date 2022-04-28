@@ -1,60 +1,8 @@
-html {
-  box-sizing: border-box;
-  position: relative;
-}
+@import "normalize.css";
+@import "basic.css";
+@import "question.css";
+@import "home.css";
+@import "room.css";
+@import "about.css";
+@import "contacts.css";
 
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
-
-body {
-  min-width: 320px;
-  min-height: 100vh;
-
-  font-family: Arial, sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-
-  color: #FFFFFF;
-  background-color: #1B1A1B;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-button {
-  cursor: pointer;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-ul, ol{
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-h1, h2, h3, p, figure, fieldset {
-  margin: 0;
-}
-
-.container {
-  max-width: 1240px;
-  padding: 0 30px;
-  margin: 0 auto;
-}
-
-section {
-  padding: 50px 0;
-}
-
-.hide {
-  display: none;
-}

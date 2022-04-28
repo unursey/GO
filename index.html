@@ -3,229 +3,259 @@
 <head>
   <meta charset="UTF-8">
   <link rel="icon" type="image/svg+xml" href="img/icon.svg">
-  <title>Modul02 Lesson08</title>
-  <link rel="stylesheet" href="css/index.css">
+  <title>Modul02 Lesson10</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
 
-<div class="container">
-  <header class="hide">
-    <h2>Меню</h2>
-    <img src="img/logo.svg" alt="GO" height="66">
-    <nav>
-      <ul>
-        <li><a href="#room">Залы</a></li>
-        <li><a href="#about">О нас</a></li>
-        <li><a href="#booking">Бронь</a></li>
-        <li><a href="#reviews">Отзывы</a></li>
-        <li><a href="#contacts">Контакты</a></li>
+<header class="header hide">
+  <!--<h2>Меню</h2>-->
+  <div class="container">
+    <img class='logo' src="img/header/logo.svg" alt="GO" height="66">
+
+    <nav class="navigation">
+      <ul class="navigation__list">
+        <li class="navigation__item">
+          <a class="navigation__link" href="#room">Залы</a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link" href="#about">О нас</a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link" href="#booking">Бронь</a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link" href="#reviews">Отзывы</a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link" href="#contacts">Контакты</a>
+        </li>
       </ul>
     </nav>
-  </header>
+  </div>
+</header>
 
-  <main>
-    <section class="home">
-      <h1 class="home__title">GAME OVER</h1>
-      <p class="home__text">Новый формат игр и отдыха</p>
-    </section>
+<main class="main">
+  <section class="home">
+    <div class="container">
+      <div class="home__content">
+        <h1 class="home__title">GAME OVER</h1>
+        <p class="home__text">Новый формат игр и отдыха</p>
+      </div>
+    </div>
+  </section>
 
-    <section class="hide">
-      <h2>У нас есть всё для классного отдыха с друзьями!</h2>
-      <ul>
-        <li>
-          <figure>
-            <img src="img/vr.jpg" alt="VR очки" height="228">
-            <figcaption>VR очки</figcaption>
+  <section class="range hide">
+    <div class="container">
+      <h2 class="range__title">У нас есть всё для классного отдыха с друзьями!</h2>
+      <ul class="range__list">
+        <li class="range__item card">
+          <figure class="card__content">
+            <img class="card__image" src="img/range/vr.jpg" alt="VR очки" height="228">
+            <figcaption class="card__title">VR очки</figcaption>
           </figure>
         </li>
 
-        <li>
-          <figure>
-            <img src="img/audio.jpg" alt="Аудио-система 5.1 с отличным звуком" height="228">
-            <figcaption>Аудио-система 5.1 с отличным звуком</figcaption>
+        <li class="range__item card">
+          <figure class="card__content">
+            <img class="card__image" src="img/range/audio.jpg" alt="Аудио-система 5.1 с отличным звуком" height="228">
+            <figcaption class="card__title">Аудио-система 5.1 с отличным звуком</figcaption>
           </figure>
         </li>
 
-        <li>
-          <figure>
-            <img src="img/micro.jpg" alt="Караоке (4 микрофона)" height="228">
-            <figcaption>Караоке (4 микрофона)</figcaption>
+        <li class="range__item card">
+          <figure class="card__content">
+            <img class="card__image" src="img/range/micro.jpg" alt="Караоке (4 микрофона)" height="228">
+            <figcaption class="card__title">Караоке (4 микрофона)</figcaption>
           </figure>
         </li>
 
-        <li>
-          <figure>
-            <img src="img/game.jpg" alt="Настольные игры" height="228">
-            <figcaption>Настольные игры</figcaption>
+        <li class="range__item card">
+          <figure class="card__content">
+            <img class="card__image" src="img/range/game.jpg" alt="Настольные игры" height="228">
+            <figcaption class="card__title">Настольные игры</figcaption>
           </figure>
         </li>
 
-        <li>
-          <figure>
-            <img src="img/netflix.jpg" alt="Кино сервисы Netflix, IVI, MegoGo, КиноПоиск, Okko" height="228">
-            <figcaption>Кино сервисы Netflix, IVI, MegoGo, КиноПоиск, Okko</figcaption>
+        <li class="range__item card">
+          <figure class="card__content">
+            <img class="card__image" src="img/range/netflix.jpg"
+                 alt="Кино сервисы Netflix, IVI, MegoGo, КиноПоиск, Okko" height="228">
+            <figcaption class="card__title">Кино сервисы Netflix, IVI, MegoGo, КиноПоиск, Okko</figcaption>
           </figure>
         </li>
 
-        <li>
-          <figure>
-            <img src="img/sony.jpg" alt="PlayStation 5" height="228">
-            <figcaption>PlayStation 5</figcaption>
+        <li class="range__item card">
+          <figure class="card__content">
+            <img class="card__image" src="img/range/sony.jpg" alt="PlayStation 5" height="228">
+            <figcaption class="card__title">PlayStation 5</figcaption>
           </figure>
         </li>
       </ul>
-    </section>
+    </div>
+  </section>
 
-    <section class='room' id="room">
+  <section class='room' id="room">
+    <div class="container">
       <h2 class="room__title">Наши залы</h2>
       <ol class="room__list">
         <li class="room__item">
-          <figure>
+          <figure class="room__content">
             <img class='room__img' src="img/room/vibes.jpg" alt="Комната в стиле 80-х">
             <figcaption class="room__text">80's vibes</figcaption>
           </figure>
         </li>
 
         <li class="room__item">
-          <figure>
+          <figure class="room__content">
             <img class='room__img' src="img/room/star.jpg" alt="Комната в стиле звездных войн">
             <figcaption class="room__text">Star wars</figcaption>
           </figure>
         </li>
 
         <li class="room__item">
-          <figure>
+          <figure class="room__content">
             <img class='room__img' src="img/room/wild.jpg" alt="Комната в стиле дикого запада">
             <figcaption class="room__text">Wild west</figcaption>
           </figure>
         </li>
 
         <li class="room__item">
-          <figure>
+          <figure class="room__content">
             <img class='room__img' src="img/room/neon.jpg" alt="Комната в неоновом стиле">
             <figcaption class="room__text">Neon style</figcaption>
           </figure>
         </li>
       </ol>
-    </section>
+    </div>
+  </section>
 
-    <section class="hide" id="booking">
+  <section class="booking hide" id="booking">
+    <div class="container">
       <h3>ЗАБРОНИРОВАТЬ ЗАЛ ПРОСТО</h3>
-      <form id="my-form"
+      <form class='booking__form' id="my-form"
             action="https://jsonplaceholder.typicode.com/posts"
             method="POST">
 
-        <fieldset>
+        <fieldset class='booking__room'>
           <label>
-            <input type="radio" name="room" value="80s-vibes">80'S VIBES
+            <input class='booking__room-input' type="radio" name="room" value="80s-vibes">80'S VIBES
           </label>
 
           <label>
-            <input type="radio" name="room" value="star-wars">STAR WARS
+            <input class='booking__room-input' type="radio" name="room" value="star-wars">STAR WARS
           </label>
 
           <label>
-            <input type="radio" name="room" value="wild-west">WILD WEST
+            <input class='booking__room-input' type="radio" name="room" value="wild-west">WILD WEST
           </label>
 
           <label>
-            <input type="radio" name="room" value="neon-style">NEON STYLE
+            <input class='booking__room-input' type="radio" name="room" value="neon-style">NEON STYLE
           </label>
         </fieldset>
 
-        <fieldset>
+        <fieldset class='booking__range'>
           <legend>Собери набор развлечений</legend>
-          <fieldset>
+
+          <fieldset class="booking__console">
             <legend>Приставка:</legend>
             <label>
-              <input type="radio" name="game-console" value="playStation">PlayStation
+              <input class='booking__console-input' type="radio" name="game-console" value="playStation">PlayStation
             </label>
 
             <label>
-              <input type="radio" name="game-console" value="sega-mega-drive">Sega Mega Drive
+              <input class='booking__console-input' type="radio" name="game-console" value="sega-mega-drive">Sega Mega
+              Drive
             </label>
 
             <label>
-              <input type="radio" name="game-console" value="x-box-one-s">X-box One S
+              <input class='booking__console-input' type="radio" name="game-console" value="x-box-one-s">X-box One S
             </label>
 
             <label>
-              <input type="radio" name="game-console" value="dendy">Dendy
+              <input class='booking__console-input' type="radio" name="game-console" value="dendy">Dendy
             </label>
           </fieldset>
 
-          <fieldset>
+          <fieldset class='booking__board'>
             <legend>Настольные игры:</legend>
+
             <label>
-              <input type="checkbox" name="board-games" value="jenga">Jenga
+              <input class='booking__board-input' type="checkbox" name="board-games" value="jenga">Jenga
             </label>
 
             <label>
-              <input type="checkbox" name="board-games" value="monopoly">Monopoly
+              <input class='booking__board-input' type="checkbox" name="board-games" value="monopoly">Monopoly
             </label>
 
             <label>
-              <input type="checkbox" name="board-games" value="manchkin">Манчкин
+              <input class='booking__board-input' type="checkbox" name="board-games" value="manchkin">Манчкин
             </label>
 
             <label>
-              <input type="checkbox" name="board-games" value="alias">Alias
+              <input class='booking__board-input' type="checkbox" name="board-games" value="alias">Alias
             </label>
           </fieldset>
 
-          <fieldset>
+          <fieldset class='booking__add'>
             <legend>Дополнительно:</legend>
+
             <label>
-              <input type="checkbox" name="add" value="karaoke">Караоке
+              <input class='booking__add-input' type="checkbox" name="add" value="karaoke">Караоке
             </label>
 
             <label>
-              <input type="checkbox" name="add" value="vr">VR
+              <input class='booking__add-input' type="checkbox" name="add" value="vr">VR
             </label>
           </fieldset>
         </fieldset>
 
-        <fieldset>
+        <fieldset class='booking__reg'>
           <legend>Выбери дату и время</legend>
+
           <label>
-            <input type="date" name="date" value="" required>
+            <input class='booking__reg-input booking__reg-input_date' type="date" name="date" value="" required>
           </label>
 
           <label>
-            <input type="time" name="time" value="" required>
+            <input class='booking__reg-input booking__reg-input_time' type="time" name="time" value="" required>
           </label>
 
           <label>
-            <input type="number" name="count" placeholder="Сколько человек" value="" required>
+            <input class='booking__reg-input booking__reg-input_number' type="number" name="count"
+                   placeholder="Сколько человек" value="" required>
           </label>
 
           <label>
             Имя
-            <input type="text" name="name" value="" required>
+            <input class='booking__reg-input booking__reg-input_name' type="text" name="name" value="" required>
           </label>
 
           <label>
             Фамилия
-            <input type="text" name="surname" value="" required>
+            <input class='booking__reg-input booking__reg-input_surname' type="text" name="surname" value="" required>
           </label>
 
           <label>
             Телефон
-            <input type="tel" name="tel" value="" required>
+            <input class='booking__reg-input booking__reg-input_phone' type="tel" name="tel" value="" required>
           </label>
 
           <label>
             E-mail
-            <input type="email" name="mail" value="" required>
+            <input class='booking__reg-input booking__reg-input_mail' type="email" name="mail" value="" required>
           </label>
         </fieldset>
 
-        <button type="submit">ЗАБРОНИРОВАТЬ</button>
+        <button class='booking__button' type="submit">ЗАБРОНИРОВАТЬ</button>
       </form>
-    </section>
+    </div>
+  </section>
 
-    <article class='about' id="about">
+  <article class='about' id="about">
+    <div class="container">
       <h2 class="about__title">О нас</h2>
 
       <p class="about__text">Для наших гостей мы создали концептуально новое игровое пространство виртуальной реальности
@@ -242,52 +272,57 @@
             <img class="about__photo" src="img/about/arkadii.jpg" alt="Аркадий Aбакшин">
           </figure>
 
-          <p class="about__text about__cite">Аркадий Абакшин, создатель игровой территории GAME OVER</p>
+          <p class="about__text about__text_cite">Аркадий Абакшин, создатель игровой территории GAME OVER</p>
         </div>
 
       </blockquote>
-    </article>
+    </div>
+  </article>
 
-    <section class="hide" id="reviews">
-      <h2>ОТЗЫВЫ ПОСЕТИТЕЛЕЙ</h2>
-      <ul>
-        <li>
-          <figure>
-            <img src="img/reviews/3.jpg" alt="Макс Самойлов" height="200">
-            <figcaption>Макс Самойлов</figcaption>
+  <section class="reviews hide" id="reviews">
+    <div class="container">
+      <h2 class="reviews__title">ОТЗЫВЫ ПОСЕТИТЕЛЕЙ</h2>
+
+      <ul class="reviews__list">
+        <li class="reviews__item">
+          <figure class="reviews__content">
+            <img class="reviews__image" src="img/reviews/3.jpg" alt="Макс Самойлов" height="200">
+            <figcaption class="reviews__title">Макс Самойлов</figcaption>
           </figure>
-          <p>
+          <p class="reviews__text">
             Отмечали здесь день рождения с компанией друзей, все было очень круто! VR очки это просто бомба, никогда еще
             я не был в таком полном игровом погружении. Правда другана укачало. Сервис на высоте!
           </p>
         </li>
 
-        <li>
-          <figure>
-            <img src="img/reviews/1.jpg" alt="Оксана Григорьева" height="200">
-            <figcaption>Оксана Григорьева</figcaption>
+        <li class="reviews__item">
+          <figure class="reviews__content">
+            <img class="reviews__image" src="img/reviews/1.jpg" alt="Оксана Григорьева" height="200">
+            <figcaption class="reviews__title">Оксана Григорьева</figcaption>
           </figure>
-          <p>
+          <p class="reviews__text">
             Были в комнате Дикий Запад, пели в караоке под Шакиру, отличный получился корпоратив! У нас в городе больше
             нет подобных заведений
           </p>
         </li>
 
-        <li>
-          <figure>
-            <img src="img/reviews/2.jpg" alt="Никита Ященко" height="200">
-            <figcaption>Никита Ященко</figcaption>
+        <li class="reviews__item">
+          <figure class="reviews__content">
+            <img class="reviews__image" src="img/reviews/2.jpg" alt="Никита Ященко" height="200">
+            <figcaption class="reviews__title">Никита Ященко</figcaption>
           </figure>
-          <p>
+          <p class="reviews__text">
             Немного подвисала игра в VR очках, а так все норм. Крутое оформление комнаты в стиле звездных войн, попал в
             атмосферу космоса
           </p>
         </li>
       </ul>
-    </section>
+    </div>
+  </section>
 
-    <section class="question hide" id="question">
-      <h2>Частые вопросы</h2>
+  <section class="question hide" id="question">
+    <div class="container">
+      <h2 class="question__title">Частые вопросы</h2>
       <ul class="question__list">
         <li class="question__item">
           <p class="question__title">
@@ -319,10 +354,12 @@
           </p>
         </li>
       </ul>
-    </section>
-  </main>
+    </div>
+  </section>
+</main>
 
-  <footer class='contacts' id="contacts">
+<footer class='contacts' id="contacts">
+  <div class="container">
     <h2 class='contacts__title'>Контакты</h2>
 
     <address class="contacts__address">
@@ -335,31 +372,31 @@
       <ul class='contacts__list'>
         <li class='contacts__item'>
           <a class='contacts__link' href="#" target="_blank">
-          <img class='contacts__image' src="img/contacts/inst.svg" alt="Инстаграмм">
+            <img class='contacts__image' src="img/contacts/inst.svg" alt="Инстаграмм">
           </a>
         </li>
 
         <li class='contacts__item'>
           <a class='contacts__link' href="https://www.vk.com" target="_blank">
-          <img class='contacts__image' src="img/contacts/vk.svg" alt="Вконтакте">
+            <img class='contacts__image' src="img/contacts/vk.svg" alt="Вконтакте">
           </a>
         </li>
 
         <li class='contacts__item'>
           <a class='contacts__link' href="https://www.facebook.com" target="_blank">
-          <img class='contacts__image' src="img/contacts/fb.svg" alt="Фэйсбук">
+            <img class='contacts__image' src="img/contacts/fb.svg" alt="Фэйсбук">
           </a>
         </li>
 
         <li class='contacts__item'>
           <a class='contacts__link' href="https://telegram.org" target="_blank">
-          <img class='contacts__image' src="img/contacts/tg.svg" alt="Телеграмм">
+            <img class='contacts__image' src="img/contacts/tg.svg" alt="Телеграмм">
           </a>
         </li>
       </ul>
     </nav>
-  </footer>
-</div>
+  </div>
+</footer>
 
 
 </body>

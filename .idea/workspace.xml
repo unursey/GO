@@ -1,9 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e23deac0-67fd-40c9-962a-216437bd2edc" name="Changes" comment="">
+    <list default="true" id="a988a673-d533-43a7-a149-bd944322b397" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/css/basic.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lesson09.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/about.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/faq.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/question.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/audio.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/range/audio.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/game.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/range/game.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/header/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/micro.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/range/micro.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/netflix.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/range/netflix.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/open-purple.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/question/open-purple.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/open.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/question/open.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/sony.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/range/sony.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/vr.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/range/vr.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +36,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="28Kd0DkeMPbtsS6k5mQMEzamdyc" />
+  <component name="ProjectId" id="28Oty5ueE54lbSK1ncfvWs8gVO0" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -28,24 +45,39 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Anna\Desktop\Lessons\Modul02\Lesson10\GO\img\faq" />
+      <recent name="C:\Users\Anna\Desktop\Lessons\Modul02\Lesson10\GO\img\range" />
+      <recent name="C:\Users\Anna\Desktop\Lessons\Modul02\Lesson10\GO\img\header" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e23deac0-67fd-40c9-962a-216437bd2edc" name="Changes" comment="" />
-      <created>1650968988298</created>
+      <changelist id="a988a673-d533-43a7-a149-bd944322b397" name="Changes" comment="" />
+      <created>1651099713813</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1650968988298</updated>
-      <workItem from="1650968991235" duration="4849000" />
-      <workItem from="1650987170735" duration="4330000" />
-      <workItem from="1650994874040" duration="1221000" />
+      <updated>1651099713813</updated>
+      <workItem from="1651099716125" duration="4109000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

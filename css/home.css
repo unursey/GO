@@ -1,6 +1,6 @@
-.home {
+.home__content {
   position: relative;
-  min-height: 970px;
+  min-height: 940px;
   padding-top: 100px;
 }
 
@@ -18,7 +18,7 @@
   margin-left: 100px;
 }
 
-.home:after {
+.home__content:after {
   position: absolute;
   content: url("../img/home/man.png");
   right: 0;
