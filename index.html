@@ -36,7 +36,7 @@
   </div>
 </header>
 
-<main class="main">
+<main>
   <section class="home">
     <div class="container">
       <div class="home__content">
@@ -101,28 +101,28 @@
       <h2 class="room__title">Наши залы</h2>
       <ol class="room__list">
         <li class="room__item">
-          <figure class="room__content">
+          <figure>
             <img class='room__img' src="img/room/vibes.jpg" alt="Комната в стиле 80-х">
             <figcaption class="room__text">80's vibes</figcaption>
           </figure>
         </li>
 
         <li class="room__item">
-          <figure class="room__content">
+          <figure>
             <img class='room__img' src="img/room/star.jpg" alt="Комната в стиле звездных войн">
             <figcaption class="room__text">Star wars</figcaption>
           </figure>
         </li>
 
         <li class="room__item">
-          <figure class="room__content">
+          <figure>
             <img class='room__img' src="img/room/wild.jpg" alt="Комната в стиле дикого запада">
             <figcaption class="room__text">Wild west</figcaption>
           </figure>
         </li>
 
         <li class="room__item">
-          <figure class="room__content">
+          <figure>
             <img class='room__img' src="img/room/neon.jpg" alt="Комната в неоновом стиле">
             <figcaption class="room__text">Neon style</figcaption>
           </figure>
@@ -133,7 +133,7 @@
 
   <section class="booking hide" id="booking">
     <div class="container">
-      <h3>ЗАБРОНИРОВАТЬ ЗАЛ ПРОСТО</h3>
+      <h3 class="booking__title">ЗАБРОНИРОВАТЬ ЗАЛ ПРОСТО</h3>
       <form class='booking__form' id="my-form"
             action="https://jsonplaceholder.typicode.com/posts"
             method="POST">
@@ -267,13 +267,10 @@
       <blockquote class="about__blockquote">
         <p class="about__big-text">GAME OVER — это место незабываемых впечатлений</p>
 
-        <div class="about__sign">
-          <figure class="about__frame">
-            <img class="about__photo" src="img/about/arkadii.jpg" alt="Аркадий Aбакшин">
-          </figure>
-
-          <p class="about__text about__text_cite">Аркадий Абакшин, создатель игровой территории GAME OVER</p>
-        </div>
+        <figure class="about__sign">
+          <img class="about__photo" src="img/about/arkadii.jpg" alt="Аркадий Aбакшин">
+          <figcaption class="about__text about__text_cite">Аркадий Абакшин, создатель игровой территории GAME OVER</figcaption>
+        </figure>
 
       </blockquote>
     </div>
