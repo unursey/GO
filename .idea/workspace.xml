@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a988a673-d533-43a7-a149-bd944322b397" name="Changes" comment="">
+    <list default="true" id="66af7707-4b43-4a1d-a4f3-20a680e72103" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/about.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/question.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/question.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,7 +21,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="28Oty5ueE54lbSK1ncfvWs8gVO0" />
+  <component name="ProjectId" id="28UVuofmFqoIQZXI7CM8spQlDBl" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -29,42 +30,21 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Anna\Desktop\Lessons\Modul02\Lesson10\GO\img\faq" />
-      <recent name="C:\Users\Anna\Desktop\Lessons\Modul02\Lesson10\GO\img\range" />
-      <recent name="C:\Users\Anna\Desktop\Lessons\Modul02\Lesson10\GO\img\header" />
-    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a988a673-d533-43a7-a149-bd944322b397" name="Changes" comment="" />
-      <created>1651099713813</created>
+      <changelist id="66af7707-4b43-4a1d-a4f3-20a680e72103" name="Changes" comment="" />
+      <created>1651271379586</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1651099713813</updated>
-      <workItem from="1651099716125" duration="4493000" />
-      <workItem from="1651141911574" duration="1457000" />
-      <workItem from="1651244163321" duration="602000" />
+      <updated>1651271379586</updated>
+      <workItem from="1651271381296" duration="7236000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
 </project>
