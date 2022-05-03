@@ -9,6 +9,9 @@
 
 .reviews__item {
   display: flex;
+}
+
+.reviews__item:not(:last-child) {
   margin-bottom: 50px;
 }
 
