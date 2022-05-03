@@ -5,23 +5,32 @@
   line-height: 50px;
   text-align: center;
   text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.room__list {
+ font-size: 0;
 }
 
 .room__item {
-  text-align: center;
-  margin-top: 60px;
+  display: inline-block;
   position: relative;
-  min-height: 710px;
-  min-width: 1180px;
+  text-align: center;
+  max-width: 580px;
+  margin-top: 20px;
+}
+
+.room__item:not(:nth-child(2n)) {
+  margin-right: 20px;
 }
 
 .room__text {
+  position: absolute;
+  width: 100%;
   font-size: 70px;
   font-weight: 700;
   line-height: 80px;
   text-transform: uppercase;
-  position: absolute;
-  top: 280px;
-  left: 450px;
-  right: 450px;
+  top: 135px;
+  z-index: 10;
 }
