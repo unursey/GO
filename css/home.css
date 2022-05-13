@@ -1,7 +1,6 @@
 .home__content {
   position: relative;
-  min-height: 940px;
-  padding-top: 100px;
+  min-height: 825px;
 }
 
 .home__title {
@@ -24,5 +23,87 @@
   right: 0;
   bottom: 0;
   z-index: 1;
+}
+
+.home__block {
+  display: flex;
+  justify-content: start;
+  text-align: center;
+  max-width: 170px;
+  padding-top: 30px;
+  gap: 40px;
+  align-items: flex-end;
+}
+
+.home__text-block {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 34.5px;
+  margin-bottom: 150px;
+}
+
+.home__text-block_num_pink {
+  text-transform: uppercase;
+  font-size: 100px;
+  font-weight: 900;
+  line-height: 141px;
+  color: #CD06FF;
+}
+
+.home__text-block_text_pink {
+  text-transform: uppercase;
+  font-size: 75px;
+  font-weight: 900;
+  line-height: 106px;
+  color: #CD06FF;
+}
+
+.home__button {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 30px;
+  border: none;
+  border-radius: 10px;
+  color: #ffffff;
+  background-color: #6C0287;
+  box-shadow: 0 0 10px #6C0287;
+  padding: 25px 69px;
+  transition: all .8s ease;
+}
+
+.home__button:hover {
+  background-color: #840aa3;
+}
+
+.home__button:focus {
+  background-color: #840aa3;
+}
+
+.home__button:active {
+  background-color: #640aa3;
+}
+
+.home__link {
+  width: 97px;
+  height: 97px;
+  background-image: url(../img/home/down.svg);
+  position: absolute;
+  bottom: 90px;
+  left: 46%;
+  z-index: 2;
+  transition: all .8s ease;
+}
+
+.home__link:hover {
+  background-image: url(../img/home/down-hover.svg);
+}
+
+.home__link:focus {
+  background-image: url(../img/home/down.svg);
+  outline: 1px solid #CD06FF;
+}
+
+.home__link:active {
+  background-image: url(../img/home/down-active.svg);
 }
 

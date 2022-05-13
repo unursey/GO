@@ -1,10 +1,14 @@
 @import "normalize.css";
 @import "basic.css";
-@import "question.css";
+@import "header.css";
 @import "home.css";
+@import "range.css";
 @import "room.css";
+@import "booking.css";
 @import "about.css";
 @import "reviews.css";
+@import "question.css";
 @import "contacts.css";
+
 
 

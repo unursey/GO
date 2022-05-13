@@ -1,5 +1,6 @@
 .contacts {
   padding-top: 50px;
+  background: linear-gradient(180deg, #1B1A1B 0%, #370A37 100%);
 }
 
 .contacts__title {
@@ -27,7 +28,7 @@
 }
 
 .contacts__nav {
-  margin: 40px 0 150px 0;
+  margin-top: 40px;
 }
 
 .contacts__list {
@@ -46,12 +47,14 @@
 .contacts__image {
   width: 50px;
   height: 50px;
+  transition: all .8s ease;
 }
 
 .contacts__location:before {
   content: url("../img/contacts/location.svg");
   position: absolute;
   left: -2px;
+  top: 12px;
 }
 
 .contacts__link_phone:before {
@@ -64,5 +67,38 @@
   content: url("../img/contacts/envelope.svg");
   position: absolute;
   left: -2px;
+}
+
+.contacts__container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 165px;
+}
+
+.contacts__copyright {
+  display: flex;
+  justify-content: space-between;
+} 
+
+.contacts__text-copyright {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  flex-basis: 160px;
+  flex-wrap: wrap;
+}
+
+.contacts__image:hover {
+  fill: #eadeed;
+}
+
+.contacts__image:focus {
+  fill: #eadeed;
+  outline: 1px solid #cd06ff;
+  outline-offset: -1px;
+}
+
+.contacts__image:active {
+  fill: #cd06ff;
 }
 

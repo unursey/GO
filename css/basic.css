@@ -58,3 +58,9 @@ section {
 .hide {
   display: none;
 }
+
+svg path {
+  fill:inherit;
+  stroke:inherit;
+  stroke-width:inherit;
+}
