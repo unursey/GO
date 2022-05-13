@@ -41,6 +41,7 @@
 }
 
 .booking__room-label {
+  display: inline-block;
   min-width: 250px;
   font-size: 30px;
   font-weight: 700;
@@ -54,20 +55,23 @@
   cursor: pointer;
 }
 
-.booking__room-label:hover {
+.booking__room-input:not(:disabled):not(:checked)+.booking__room-label:hover {
   outline: 3px solid #640aa3;
   outline-offset: -3px;
   background-color: #EADEED;
 }
 
-.booking__room-label .booking__room-input:focus {
+.booking__room-input:focus+.booking__room-label {
   outline: 3px solid #640aa3;
   outline-offset: -3px;
+  background-color: #ffffff;
 }
 
-.booking__room-label .booking__room-input:active {
+.booking__room-input:not(:disabled):active,.booking__room-input:checked+.booking__room-label {
   background-color: #EADEED;
 }
+
+
 
 .booking__range {
   font-size: 0;
@@ -95,8 +99,10 @@
 
 .booking__game-input {
   margin-right: 18px;
-  transform: scale(1.9);
+  width: 25px;
 }
+
+
 
 .booking__game-input:focus {
   border: 1px solid #cd06ff;
@@ -197,3 +203,4 @@
 .booking__button:active {
   background-color: #EADEED;
 }
+
