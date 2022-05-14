@@ -86,7 +86,7 @@
 .home__link {
   width: 97px;
   height: 97px;
-  background-image: url(../img/home/down.svg);
+  background-image: url('../img/home/down.svg');
   position: absolute;
   bottom: 90px;
   left: 46%;
@@ -95,14 +95,14 @@
 }
 
 .home__link:hover {
-  background-image: url(../img/home/down-hover.svg);
+  background-image: url('../img/home/down-hover.svg');
 }
 
 .home__link:focus {
-  background-image: url(../img/home/down.svg);
+  background-image: url('../img/home/down.svg');
   outline: 1px solid #CD06FF;
 }
 
 .home__link:active {
-  background-image: url(../img/home/down-active.svg);
+  background-image: url('../img/home/down-active.svg');
 }

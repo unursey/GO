@@ -147,7 +147,7 @@
 .booking__game-input:focus+.booking__checkbox-text:before,
 .booking__game-input:focus+.booking__radio-text:before,
 .booking__game-input:checked+.booking__checkbox-text:before,
-.booking__game-input:checked+.booking__checkbox-radio:before {
+.booking__game-input:checked+.booking__radio-text:before {
   outline: 1px solid #cd06ff;
   outline-offset: 1px;
 }
