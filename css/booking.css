@@ -53,6 +53,7 @@
   user-select: none;
   border-radius: 8px;
   cursor: pointer;
+  transition: background-color 0.8s ease, border 0.8s ease;
 }
 
 .booking__room-input:not(:disabled)+.booking__room-label:hover {
@@ -224,7 +225,9 @@
   color: #6c0287;
   background-color: #ffffff;
   padding: 16px 50px;
+  border: none;
   border-radius: 10px;
+  transition: background-color 0.8s ease;
 }
 
 .booking__button:hover {

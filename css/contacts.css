@@ -83,9 +83,13 @@
 .contacts__text-copyright {
   font-size: 14px;
   font-weight: 400;
-  line-height: 16px;
+  line-height: 22px;
   flex-basis: 160px;
   flex-wrap: wrap;
+}
+
+.contacts__text-copyright_align_right {
+    text-align: right;
 }
 
 .contacts__image:hover {

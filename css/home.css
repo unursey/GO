@@ -73,7 +73,7 @@
   background-color: #6C0287;
   box-shadow: 0 0 10px #6C0287;
   padding: 25px 69px;
-  transition: all .8s ease;
+  transition: background-color .8s ease;
 }
 
 .home__button:hover {
