@@ -31,4 +31,10 @@
   z-index: 10;
   padding-left: 40px;
 }
+.card__image {
+    transition: all .8s ease;
+}
 
+.card__image:hover {
+  transform: scale(1.1);
+}

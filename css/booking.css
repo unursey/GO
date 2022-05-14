@@ -67,7 +67,13 @@
   background-color: #ffffff;
 }
 
-.booking__room-input:not(:disabled):active,.booking__room-input:checked+.booking__room-label {
+.booking__room-input:not(:disabled):active+.booking__room-label {
+  background-color: #EADEED;
+}
+
+.booking__room-input:checked+.booking__room-label {
+  outline: 3px solid #640aa3;
+  outline-offset: -3px;
   background-color: #EADEED;
 }
 
@@ -140,7 +146,8 @@
 
 .booking__game-input:focus+.booking__checkbox-text:before,
 .booking__game-input:focus+.booking__radio-text:before,
-.booking__game-input:checked+.booking__checkbox-text:before {
+.booking__game-input:checked+.booking__checkbox-text:before,
+.booking__game-input:checked+.booking__checkbox-radio:before {
   outline: 1px solid #cd06ff;
   outline-offset: 1px;
 }
