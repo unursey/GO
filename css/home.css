@@ -44,18 +44,16 @@
   font-size: 30px;
   font-weight: 400;
   line-height: 34.5px;
-  flex-wrap: wrap;
 }
 
-.home__text-block_num_pink {
-  text-transform: uppercase;
+.home__pink-number {
   font-size: 100px;
   font-weight: 900;
   line-height: 141px;
   color: #CD06FF;
 }
 
-.home__text-block_text_pink {
+.home__pink-text {
   text-transform: uppercase;
   font-size: 75px;
   font-weight: 900;

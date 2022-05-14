@@ -23,13 +23,12 @@
 
 .card__title {
   position: absolute;
-  width: 100%;
   font-size: 20px;
   font-weight: 700;
   line-height: 28px;
   top: 166px;
+  left: 40px;
   z-index: 10;
-  padding-left: 40px;
 }
 .card__image {
     transition: all .8s ease;
