@@ -55,7 +55,7 @@
   cursor: pointer;
 }
 
-.booking__room-input:not(:disabled):not(:checked)+.booking__room-label:hover {
+.booking__room-input:not(:disabled)+.booking__room-label:hover {
   outline: 3px solid #640aa3;
   outline-offset: -3px;
   background-color: #EADEED;
@@ -67,14 +67,13 @@
   background-color: #ffffff;
 }
 
-.booking__room-input:not(:disabled):active+.booking__room-label {
+.booking__room-input:active+.booking__room-label {
   background-color: #EADEED;
 }
 
 .booking__room-input:checked+.booking__room-label {
   outline: 3px solid #640aa3;
   outline-offset: -3px;
-  background-color: #EADEED;
 }
 
 .booking__range {
@@ -107,32 +106,13 @@
   opacity: 0;
 }
 
-.booking__game-input+.booking__checkbox-text {
+.booking__game-input+.booking__text {
   display: inline-flex;
   align-items: center;
   user-select: none;
 }
 
-.booking__game-input+.booking__radio-text {
-  display: inline-flex;
-  align-items: center;
-  user-select: none;
-}
-
-.booking__game-input+.booking__radio-text:before {
-  content: '';
-  display: inline-block;
-  width: 27px;
-  height: 27px;
-  border-radius: 50%;
-  margin-right: 12px;
-  background-color: #ffffff;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: 50% 50%;
-}
-
-.booking__game-input+.booking__checkbox-text:before {
+.booking__game-input+.booking__text:before {
   content: '';
   display: inline-block;
   width: 27px;
@@ -144,21 +124,23 @@
   background-size: 50% 50%;
 }
 
-.booking__game-input:focus+.booking__checkbox-text:before,
-.booking__game-input:focus+.booking__radio-text:before,
-.booking__game-input:checked+.booking__checkbox-text:before,
-.booking__game-input:checked+.booking__radio-text:before {
+.booking__game-input+.booking__text_radio:before {
+    border-radius: 50%;
+}
+
+.booking__game-input:focus+.booking__text:before,
+.booking__game-input:checked+.booking__text:before {
   outline: 1px solid #cd06ff;
   outline-offset: 1px;
 }
 
-.booking__game-input:checked+.booking__checkbox-text:before {
+.booking__game-input:checked+.booking__text_checkbox:before {
   border-color: #cd06ff;
   background-color: #cd06ff;
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
 }
 
-.booking__game-input:checked+.booking__radio-text:before {
+.booking__game-input:checked+.booking__text_radio:before {
   border-color: #cd06ff;
   background-color: #cd06ff;
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fff'/%3e%3c/svg%3e");
