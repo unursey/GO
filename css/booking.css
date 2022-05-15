@@ -73,8 +73,7 @@
 }
 
 .booking__room-input:checked+.booking__room-label {
-  outline: 3px solid #640aa3;
-  outline-offset: -3px;
+  background-color: #EADEED;
 }
 
 .booking__range {
@@ -129,8 +128,7 @@
     border-radius: 50%;
 }
 
-.booking__game-input:focus+.booking__text:before,
-.booking__game-input:checked+.booking__text:before {
+.booking__game-input:focus+.booking__text:before {
   outline: 1px solid #cd06ff;
   outline-offset: 1px;
 }
