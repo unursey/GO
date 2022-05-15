@@ -62,7 +62,7 @@
   background-color: #EADEED;
 }
 
-.booking__room-input:focus+.booking__room-label {
+.booking__room-input+.booking__room-label:focus {
   outline: 3px solid #640aa3;
   outline-offset: -3px;
   background-color: #ffffff;
