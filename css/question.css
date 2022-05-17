@@ -9,8 +9,8 @@
 }
 
 .question__item {
-  background-color: #fff;
-  color: #1C1A1A;
+  background-color: var(--white-color, #ffffff);
+  color: var(--lighter-than-black-color, #1C1A1A);
   font-weight: 700;
   font-size: 24px;
   padding: 30px 70px;
@@ -25,8 +25,8 @@
 }
 
 .question__item:nth-child(even) {
-  color: #FFFFFF;
-  background-color: #440F51;
+  color: var(--white-color, #ffffff);
+  background-color: var(--darkplum-color, #440f51);
 }
 
 .question__item:nth-child(even):after {

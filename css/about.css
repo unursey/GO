@@ -107,7 +107,7 @@
 .about__big-text:before {
   content: '“ ';
   font-weight: 900;
-  color: #6C0287;
+  color: var(--darker-than-darkpink-color, #6c0287);
   position: absolute;
   left: -2px;
 }
@@ -115,7 +115,7 @@
 .about__big-text:after {
   content: ' ”';
   font-weight: 900;
-  color: #6C0287;
+  color: var(--darker-than-darkpink-color, #6c0287);
 }
 
 .about__sign {

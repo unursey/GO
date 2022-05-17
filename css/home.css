@@ -46,19 +46,19 @@
   line-height: 34.5px;
 }
 
-.home__pink-number {
+.home__big-number {
   font-size: 100px;
   font-weight: 900;
   line-height: 141px;
-  color: #CD06FF;
+  color: var(--pink-color, #cd06ff);
 }
 
-.home__pink-text {
+.home__big-text {
   text-transform: uppercase;
   font-size: 75px;
   font-weight: 900;
   line-height: 106px;
-  color: #CD06FF;
+  color: var(--pink-color, #cd06ff);
 }
 
 .home__button {
@@ -67,23 +67,23 @@
   line-height: 30px;
   border: none;
   border-radius: 10px;
-  color: #ffffff;
-  background-color: #6C0287;
-  box-shadow: 0 0 10px #6C0287;
+  color: var(--white-color, #ffffff);
+  background-color: var(--darker-than-darkpink-color, #6c0287);
+  box-shadow: 0 0 10px var(--darker-than-darkpink-color, #6c0287);
   padding: 25px 69px;
   transition: background-color .8s ease;
 }
 
 .home__button:hover {
-  background-color: #840aa3;
+  background-color: var(--darkpink-color, #840aa3);
 }
 
 .home__button:focus {
-  background-color: #840aa3;
+  background-color: var(--darkpink-color, #840aa3);
 }
 
 .home__button:active {
-  background-color: #640aa3;
+  background-color: var(--plum-color, #640aa3);
 }
 
 .home__link {
@@ -103,7 +103,7 @@
 
 .home__link:focus {
   background-image: url('../img/home/down.svg');
-  outline: 1px solid #CD06FF;
+  outline: 1px solid var(--pink-color, #cd06ff);
 }
 
 .home__link:active {

@@ -1,5 +1,5 @@
 .booking {
-  background-color: #440f51;
+  background-color: var(--darkplum-color, #440f51);
   padding: 80px 0;
 }
 
@@ -46,8 +46,8 @@
   font-size: 30px;
   font-weight: 700;
   line-height: 40px;
-  color: #000000;
-  background-color: #ffffff;
+  color: var(--black-color, #000000);
+  background-color: var(--white-color, #ffffff);
   padding: 7px 15px 8px 15px;
   text-align: center;
   user-select: none;
@@ -59,21 +59,21 @@
 .booking__room-input:not(:disabled)+.booking__room-label:hover {
   outline: 3px solid #640aa3;
   outline-offset: -3px;
-  background-color: #EADEED;
+  background-color: var(--lightpink-color, #EADEED);
 }
 
 .booking__room-input+.booking__room-label:focus {
   outline: 3px solid #640aa3;
   outline-offset: -3px;
-  background-color: #ffffff;
+  background-color: var(--white-color, #ffffff);
 }
 
 .booking__room-input:active+.booking__room-label {
-  background-color: #EADEED;
+  background-color: var(--lightpink-color, #EADEED);
 }
 
 .booking__room-input:checked+.booking__room-label {
-  background-color: #EADEED;
+  background-color: var(--lightpink-color, #EADEED);
 }
 
 .booking__range {
@@ -118,7 +118,7 @@
   width: 27px;
   height: 27px;
   margin-right: 12px;
-  background-color: #ffffff;
+  background-color: var(--white-color, #ffffff);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 50% 50%;
@@ -129,19 +129,19 @@
 }
 
 .booking__game-input:focus+.booking__text:before {
-  outline: 1px solid #cd06ff;
+  outline: 1px solid var(--pink-color, #cd06ff);
   outline-offset: 1px;
 }
 
 .booking__game-input:checked+.booking__text_checkbox:before {
-  border-color: #cd06ff;
-  background-color: #cd06ff;
+  border-color: var(--pink-color, #cd06ff);
+  background-color: var(--pink-color, #cd06ff);
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
 }
 
 .booking__game-input:checked+.booking__text_radio:before {
-  border-color: #cd06ff;
-  background-color: #cd06ff;
+  border-color: var(--pink-color, #cd06ff);
+  background-color: var(--pink-color, #cd06ff);
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fff'/%3e%3c/svg%3e");
 }
 
@@ -172,7 +172,7 @@
 }
 
 .booking__reg-input:focus {
-  outline: 2px solid #cd06ff;
+  outline: 2px solid var(--pink-color, #cd06ff);
   outline-offset: -2px;
 }
 
@@ -220,8 +220,8 @@
   font-size: 22px;
   font-weight: 700;
   line-height: 28px;
-  color: #6c0287;
-  background-color: #ffffff;
+  color: var(--darker-than-darkpink-color, #6c0287);
+  background-color: var(--white-color, #ffffff);
   padding: 16px 50px;
   border: none;
   border-radius: 10px;
@@ -229,17 +229,17 @@
 }
 
 .booking__button:hover {
-  outline: 3px solid #6c0287;
+  outline: 3px solid var(--darker-than-darkpink-color, #6c0287);
   outline-offset: -3px;
-  background-color: #EADEED;
+  background-color: var(--lightpink-color, #EADEED);
 }
 
 .booking__button:focus {
-  outline: 3px solid #6c0287;
+  outline: 3px solid var(--darker-than-darkpink-color, #6c0287);
   outline-offset: -3px;
 }
 
 .booking__button:active {
-  background-color: #EADEED;
+  background-color: var(--lightpink-color, #EADEED);
 }
 

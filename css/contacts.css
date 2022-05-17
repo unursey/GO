@@ -41,7 +41,7 @@
 
 .contacts__link {
   text-decoration: none;
-  color: #FFFFFF;
+ 
 }
 
 .contacts__image {
@@ -93,16 +93,16 @@
 }
 
 .contacts__image:hover {
-  fill: #eadeed;
+  fill: var(--lightpink-color, #eadeed);
 }
 
 .contacts__image:focus {
-  fill: #eadeed;
-  outline: 1px solid #cd06ff;
+  fill: var(--lightpink-color, #eadeed);
+  outline: 1px solid var(--pink-color, #cd06ff);
   outline-offset: -1px;
 }
 
 .contacts__image:active {
-  fill: #cd06ff;
+  fill: var(--pink-color, #cd06ff);
 }
 

@@ -12,26 +12,40 @@
 
 .range__list {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
-  gap: 40px 20px;
+  column-gap: var(--column-gap);
+  row-gap: 40px;
 } 
 
 .range__item {
-  position: relative;
+  flex-basis: calc(100% / var(--cart-count) - (var(--column-gap) * (var(--cart-count) - 1)) / var(--cart-count));
 } 
+
+.range__item:nth-child(2) {
+  margin-top: 70px;
+}
+
+.range__item:nth-child(2n+4) {
+ margin-top: -70px;
+}
+
+.card__content {
+    position: relative;
+}
 
 .card__title {
   position: absolute;
   font-size: 20px;
   font-weight: 700;
   line-height: 28px;
-  top: 166px;
-  left: 40px;
+  top: 70%;
+  left: 10%;
   z-index: 10;
 }
+
 .card__image {
-    transition: all .8s ease;
+  transition: all .8s ease;
 }
 
 .card__image:hover {

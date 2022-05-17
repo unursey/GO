@@ -26,25 +26,25 @@
   font-size: 22px;
   font-weight: 700;
   line-height: 30px;
-  color: #ffffff;
+  color: var(--white-color, #ffffff);
   background-color: inherit;
-  border: 3px solid #CD06FF;
+  border: 3px solid var(--pink-color, #cd06ff);
   border-radius: 10px;
   padding: 13px 32px;
   transition: background-color .8s ease;
 }
 
 .header__button:hover {
-  background-color: #6c0287;
-  border: 3px solid #6c0287;
+  background-color: var(--darker-than-darkpink-color, #6c0287);
+  border: 3px solid var(--darker-than-darkpink-color, #6c0287);
 }
 
 .header__button:focus {
-  background-color: #6c0287;
-  border: 3px solid #6c0287;
+  background-color: var(--darker-than-darkpink-color, #6c0287);
+  border: 3px solid var(--darker-than-darkpink-color, #6c0287);
 }
 
 .header__button:active {
-  background-color: #640aa3;
-  border: 3px solid #640aa3;
+  background-color: var(--darker-than-darkpink-color, #6c0287);
+  border: 3px solid var(--darker-than-darkpink-color, #6c0287);
 }
