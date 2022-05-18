@@ -17,8 +17,8 @@ body {
   font-size: 16px;
   font-weight: 400;
 
-  color: #FFFFFF;
-  background-color: #1B1A1B;
+  color: var(--white-color, #FFFFFF);
+  background-color: var(--background-color, #1B1A1B);
 }
 
 img {
