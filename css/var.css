@@ -20,55 +20,8 @@
   --column-gap: 20px;
 }
 
-/*:root {
-  --outline-focus-color: #cd06ff;
+@media (max-width: 768px) {
+  .range {
+    --cart-count: 1;
+  } 
 }
-
-
-.header {
-  --button-text-color: #ffffff;
-  --button-border-color: #cd06ff;
-  --button-condition-color: #6c0287;
-}
-
-.home {
-  --big-text-color: #cd06ff;
-  --button-color: #6c0287;
-  --button-text-color: #ffffff;
-  --button-focus-hover-color: #840aa3;
-  --button-active-color: #640aa3;
-}
-
-.booking {
-  --background-color: #440f51;
-
-  --label-text-color: #000000;
-  --label-focus-color: #ffffff;
-
-  --button-text-color: #6c0287;
-  --button-color: #ffffff;
-  --button-condition-color: #EADEED;
-  --button-outline-condition-color: #6c0287;
-
-  --input-checked-color: #cd06ff;
-  --input-color: #ffffff;
-  --input-outline-condition-color: #640aa3;
-}
-
-.about {
-  --quotes-color: #6C0287;
-}
-
-.question {
-  --item-color: #ffffff;
-  --item-text-color: #1C1A1A;
-  --item-even-color: #440F51;
-  --item-even-text-color: #FFFFFF;
-}
-
-.contacts {
-  --image-active-color: #cd06ff;
-  --image-hover-focus-color: #eadeed;
-}
-
-*/

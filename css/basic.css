@@ -64,3 +64,28 @@ svg path {
   stroke:inherit;
   stroke-width:inherit;
 }
+
+@media (max-width: 1024px) {
+  .container {
+      max-width: 1024px;
+      padding: 0 60px;
+    }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding: 0 40px;
+  }
+}
+
+@media (max-width: 320px) {
+  .container {
+    max-width: 320px;
+    padding: 0 20px;
+  }
+
+  section {
+    padding: 25px 0;
+  }
+}
