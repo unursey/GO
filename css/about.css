@@ -6,7 +6,7 @@
 .about__container {
   display: grid;
   grid-template-columns: 600px auto;
-  grid-template-rows: 222px 314px;
+  grid-template-rows: repeat(2, auto);
   gap: 59px 80px;
 }
 
