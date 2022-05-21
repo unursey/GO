@@ -14,8 +14,8 @@
   grid-column: 1 / 2;
   grid-row: 1 / 3;
   display: grid;
-  grid-template-columns: repeat(11, 55px);
-  grid-template-rows: repeat(11, 55px);
+  grid-template-columns: repeat(11, 1fr);
+  grid-template-rows: repeat(11, 0.1fr);
 }
 
 .about__img {
@@ -152,11 +152,6 @@
     gap: 37px 40px;
   }
 
-  .about__gallery {
-    grid-template-columns: repeat(11, 38px);
-    grid-template-rows: repeat(11, 38px);
-  }
-
   .about__title {
     margin-bottom: 36px;
     font-size: 30px;
@@ -196,8 +191,6 @@
   .about__gallery {
     grid-column: 1 / 2;
     grid-row: 1 / 2;
-    grid-template-columns: repeat(11, 34.5px);
-    grid-template-rows: repeat(11, 34.5px);
   }
 
   .about__block-text {
@@ -256,8 +249,6 @@
   .about__gallery {
     grid-column: 1 / 2;
     grid-row: 2 / 3;
-    grid-template-columns: repeat(11, 25.5px);
-    grid-template-rows: repeat(11, 25.5px);
     margin-bottom: 5px;
   }
 
