@@ -67,9 +67,13 @@ svg path {
 
 @media (max-width: 1024px) {
   .container {
-      max-width: 1024px;
-      padding: 0 60px;
-    }
+    max-width: 1024px;
+    padding: 0 60px;
+  }
+
+  section {
+    padding: 25px 0;
+  }
 }
 
 @media (max-width: 768px) {
@@ -83,9 +87,5 @@ svg path {
   .container {
     max-width: 320px;
     padding: 0 20px;
-  }
-
-  section {
-    padding: 25px 0;
   }
 }
