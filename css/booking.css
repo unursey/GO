@@ -18,7 +18,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
   border: none;
-  margin-bottom: 60px;
+  margin-bottom: 61px;
   gap: 20px;
 }
 
@@ -172,14 +172,14 @@
   flex-wrap: wrap;
   justify-content: space-between;
   border: none;
-  gap: 20px;
+  gap: 10px;
   margin: 0 auto 40px auto;
 }
 
 .booking__reg-label {
   font-size: 14px;
   font-weight: 700;
-  line-height: 16px;
+  line-height: 15px;
 }
 
 .booking__reg-input {
@@ -203,7 +203,7 @@
   gap: 32px;
   flex-wrap: wrap;
   flex-basis: 300px;
-  padding-top: 16px;
+  padding-top: 14px;
 }
 
 .booking__reg-time {
@@ -285,7 +285,7 @@
   background-color: var(--lightpink-color, #EADEED);
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
   .booking {
     padding: 61px 0;
   }
@@ -334,13 +334,13 @@
   }
 
   .booking__reg {
-    margin-bottom: 50px;
+    margin-bottom: 51px;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 960px) {
   .booking {
-    padding: 52px 0;
+    padding: 50px 0;
   }
 
   .booking__title {
@@ -354,7 +354,7 @@
   }
 
   .booking__form-subtitle {
-    margin-bottom: 23px;
+    margin-bottom: 24px;
   }
 
   .booking__range {
@@ -388,9 +388,9 @@
   .booking__reg-date {
     flex-basis: 100%;
     justify-content: space-between;
-
+    gap: 10px;
     padding-top: 0;
-    margin-bottom: 22px;
+    margin-bottom: 34px;
     margin-top: -6px;
   }
 
@@ -413,11 +413,19 @@
   }
 
   .booking__reg {
-    margin-bottom: 50px;
+    margin-bottom: 49px;
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 740px) {
+  .booking__room {
+    max-width: 330px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 690px) {
   .booking {
     padding: 30px 0;
   }
@@ -446,12 +454,12 @@
   }
 
   .booking__range {
-    margin-bottom: 24px;
+    margin-bottom: 22px;
   }
 
   .booking__game {
     max-width: 280px;
-    gap: 15px;
+    gap: 16px;
   }
 
   .booking__reg-input_size_m {
@@ -463,7 +471,7 @@
   }
 
   .booking__game:not(:last-child) {
-    margin-bottom: 19px;
+    margin-bottom: 18px;
   }
 
   .booking__room {
@@ -490,8 +498,8 @@
     justify-content: space-between;
     padding-top: 0;
     gap: 10px;
-    margin-bottom: 15px;
-    margin-top: 4px;
+    margin-bottom: 27px;
+    margin-top: 5px;
   }
 
   .booking__reg-time {
@@ -500,7 +508,7 @@
 
   .booking__reg-name {
     flex-basis: 280px;
-    margin-bottom: 16px;
+    margin-bottom: 28px;
   }
 
   .booking__reg-contacts {

@@ -68,7 +68,7 @@
   background-image: url('../img/question/open-purp-active.svg');
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
   .question__title {
     font-size: 30px;
     line-height: 40px;
@@ -122,7 +122,7 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 960px) {
   .question__title {
     font-size: 24px;
     line-height: 26px;
@@ -140,7 +140,7 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 690px) {
   .question__title {
     font-size: 14px;
     line-height: 18px;
@@ -155,7 +155,7 @@
     height: 46px;
     font-size: 12px;
     line-height: 16px;
-    padding: 7px 43px 7px 9px;
+    padding: 7px 43px 6px 10px;
   }
 
   .question__item:not(:last-child) {

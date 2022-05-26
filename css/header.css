@@ -1,6 +1,10 @@
 .header {
-  padding-top: 32px;
-} 
+  padding-top: 31px;
+}
+
+.header__logo {
+  height: 66px;
+}
 
 .header-container {
   display: flex;
@@ -55,7 +59,11 @@
   border: 3px solid var(--darker-than-darkpink-color, #6c0287);
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
+  .header {
+    padding-top: 30px;
+  }
+
   .header__logo {
     height: 55px;
     width: 87px;
@@ -64,7 +72,7 @@
   .navigation__list {
     font-size: 18px;
     line-height: 22px;
-    gap: 21px;
+    gap: 20.7px;
   }
 
   .header__button {
@@ -74,8 +82,9 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 960px) {
   .header {
+    padding-top: 34px;
     position: relative;
   }
 
@@ -100,15 +109,16 @@
 
   .header__button-nav {
     display: block;
-    width: 58px;
-    height: 58px;
+    width: 54px;
+    height: 60px;
     padding: 0;
     background: transparent;
     border: none;
     outline: none;
   }
 
-  .header__button-icon, .header__button-close {
+  .header__button-icon,
+  .header__button-close {
     fill: var(--darker-than-darkpink-color, #6C0287);
     width: 54px;
     height: 29px;
@@ -120,16 +130,18 @@
     height: 41.72px;
   }
 
-  .header__button-icon:hover, .header__button-close:hover {
+  .header__button-icon:hover,
+  .header__button-close:hover {
     fill: var(--pink-color, #cd06ff);
     transition: fill .8s ease;
   }
-  
+
   .header__button-nav:focus {
     border: 1px solid var(--pink-color, #cd06ff);
   }
-  
-  .header__button-icon:active, .header__button-close:active {
+
+  .header__button-icon:active,
+  .header__button-close:active {
     fill: var(--darkpink-color, #840aa3);
   }
 
@@ -146,11 +158,11 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 690px) {
   .header {
-    padding-top: 20px;
+    padding-top: 26px;
   }
-  
+
   .header__logo {
     height: 42px;
     width: 66px;
@@ -166,6 +178,7 @@
     width: 40px;
     height: 40px;
   }
+
   .header__button-icon {
     width: 39px;
     height: 20px;

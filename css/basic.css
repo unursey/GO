@@ -66,7 +66,7 @@ svg path {
   stroke-width:inherit;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
   .container {
     max-width: 1024px;
     padding: 0 60px;
@@ -77,7 +77,7 @@ svg path {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 960px) {
   .container {
     max-width: 768px;
     padding: 0 40px;
@@ -88,7 +88,7 @@ svg path {
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 690px) {
   .container {
     max-width: 320px;
     padding: 0 20px;

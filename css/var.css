@@ -25,13 +25,13 @@
   --column-gap: 20px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
   .room {
     --column-gap: 20px;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 960px) {
   .range {
     --cart-count: 2;
   } 
@@ -41,7 +41,7 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 690px) {
   .range {
       --column-gap: 10px;
     }
