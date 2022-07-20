@@ -2,6 +2,8 @@
 @import "normalize.css";
 @import "basic.css";
 @import "header.css";
+@import "burger.css";
+@import "modal.css";
 @import "home.css";
 @import "range.css";
 @import "room.css";
@@ -10,6 +12,8 @@
 @import "reviews.css";
 @import "question.css";
 @import "contacts.css";
+
+
 
 
 

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" type="image/svg+xml" href="img/icon.svg" />
     <title>Modul03 END</title>
-    <script src="./js/script.js" defer></script>
+    <script type='module' src="./js/script.js" defer></script>
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
@@ -26,27 +26,52 @@
 
         <img class="header__logo" src="img/header/logo.svg" alt="GO" />
 
-        <nav class="header__nav header__nav_hide navigation">
-          <ul class="navigation__list">
-            <li class="navigation__item">
-              <a class="navigation__link" href="#room">Залы</a>
+        <nav class="header__nav">
+          <ul class="header__list">
+            <li class="header__item">
+              <a class="header__link" href="#room">Залы</a>
             </li>
-            <li class="navigation__item">
-              <a class="navigation__link" href="#about">О нас</a>
+            <li class="header__item">
+              <a class="header__link" href="#about">О нас</a>
             </li>
-            <li class="navigation__item">
-              <a class="navigation__link" href="#booking">Бронь</a>
+            <li class="header__item">
+              <a class="header__link" href="#booking">Бронь</a>
             </li>
-            <li class="navigation__item">
-              <a class="navigation__link" href="#reviews">Отзывы</a>
+            <li class="header__item">
+              <a class="header__link" href="#reviews">Отзывы</a>
             </li>
-            <li class="navigation__item">
-              <a class="navigation__link" href="#contacts">Контакты</a>
+            <li class="header__item">
+              <a class="header__link" href="#contacts">Контакты</a>
             </li>
           </ul>
         </nav>
 
         <button class="header__button">Заказать звонок</button>
+      </div>
+
+      <div class="burger">
+        <div class="burger__container">
+          <nav class="burger__nav">
+            <ul class="burger__list">
+              <li class="burger__item">
+                <a class="burger__link" href="#room">Залы</a>
+              </li>
+              <li class="burger__item">
+                <a class="burger__link" href="#about">О нас</a>
+              </li>
+              <li class="burger__item">
+                <a class="burger__link" href="#booking">Бронь</a>
+              </li>
+              <li class="burger__item">
+                <a class="burger__link" href="#reviews">Отзывы</a>
+              </li>
+              <li class="burger__item">
+                <a class="burger__link" href="#contacts">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+          <button class="burger__button">Заказать звонок</button>
+        </div>
       </div>
     </header>
 
@@ -649,31 +674,92 @@
           <h2 class="question__title">Частые вопросы</h2>
           <ul class="question__list">
             <li class="question__item">
-              <p class="question__text">
+              <button class="question__button">
                 Можно ли забронировать комнату онлайн?
-              </p>
+              </button>
+
+              <div class="question__text-wrapper">
+                <p class="question__text">
+                  Да, забронировать комнату вы можете онлайн, заполнив форму на нашем сайте. Также вы можете забронировать комнату позвонив по телефону 8 (999) 958 - 48 - 38
+                </p>
+              </div>
             </li>
 
             <li class="question__item">
-              <p class="question__text">
+              <button class="question__button">
                 Могут ли мне вернуть деньги за бронь?
-              </p>
+              </button>
+
+              <div class="question__text-wrapper">
+                <p class="question__text">
+                  Да, деньги Вам вернут, а может быть и нет
+                </p>
+              </div>
             </li>
 
             <li class="question__item">
-              <p class="question__text">Какая комната самая популярная?</p>
+              <button class="question__button">
+                Какая комната самая популярная?
+              </button>
+
+              <div class="question__text-wrapper">
+                <p class="question__text">
+                  Да, забронировать комнату вы можете онлайн, заполнив форму на нашем сайте. Также вы можете забронировать комнату позвонив по телефону 8 (999) 958 - 48 - 38
+                </p>
+              </div>
             </li>
 
             <li class="question__item">
-              <p class="question__text">Как получить VIP карту?</p>
+              <button class="question__button">Как получить VIP карту?</button>
+
+              <div class="question__text-wrapper">
+                <p class="question__text">
+                  Да, забронировать комнату вы можете онлайн, заполнив форму на нашем сайте. Также вы можете забронировать комнату позвонив по телефону 8 (999) 958 - 48 - 38
+                </p>
+              </div>
             </li>
 
             <li class="question__item">
-              <p class="question__text">Какая комната самая популярная?</p>
+              <button class="question__button">Какая комната самая популярная?</button>
+
+              <div class="question__text-wrapper">
+                <p class="question__text">
+                  Да, забронировать комнату вы можете онлайн, заполнив форму на нашем сайте. Также вы можете забронировать комнату позвонив по телефону 8 (999) 958 - 48 - 38
+                </p>
+              </div>
             </li>
           </ul>
         </div>
       </section>
+
+      <div class="modal">
+        <form class="modal__form">
+          <button class="modal__close" type="button" aria-label="close">
+            <svg
+              class="modal__close-img"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <use href="./img/header/menu.svg#close"></use>
+            </svg>
+          </button>
+
+          <h2 class="modal__title">Заказать звонок</h2>
+
+          <div class="modal__group">
+              <label class="modal__label" for="name">Имя</label>
+              <input class="modal__input" name="name" 
+                  id="name" type="text" required>
+          </div>
+
+          <div class="modal__group">
+              <label class="modal__label" for="phone">Телефон</label>
+              <input class="modal__input" name="phone" 
+                  id="phone" type="text" required>
+          </div>
+
+          <button class="modal__button" type="submit">Позвонить мне</button>
+        </form>
+      </div>
     </main>
 
     <footer class="contacts" id="contacts">
