@@ -12,8 +12,8 @@
 }
 
 .burger.burger_visible {
-  opacity: 1;
-  visibility: visible;
+  opacity: 0;
+  visibility: hidden;
 }
 
 .burger.burger_visible .burger__container {
@@ -94,6 +94,13 @@
 .burger__button:active {
   background-color: var(--darker-than-darkpink-color, #6c0287);
   border: 3px solid var(--darker-than-darkpink-color, #6c0287);
+}
+
+@media (max-width: 960px) {
+  .burger.burger_visible {
+    opacity: 1;
+    visibility: visible;
+  }
 }
 
 @media (max-width: 690px) {
