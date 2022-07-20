@@ -1,99 +1,122 @@
 .burger {
-    background-color: rgba(27, 26, 27, 0.7);
-    top: 0;
-    left: 0;
-    height: 100%;   
-    position: fixed;
-    transition: 0.3s ease-in-out;
-    visibility: hidden;
-    width: 100%;
-    z-index: 11;
-  }
-  
-  .burger.burger_visible {
-    opacity: 1;
-    visibility: visible;
-  }
-  
-  .burger.burger_visible .burger__container {
-    opacity: 1;
-    top: 107px;
-  }
+  background-color: rgba(27, 26, 27, 0.7);
+  top: 0;
+  left: 0;
+  height: 100%;
+  position: fixed;
+  transition: 0.3s ease-in-out;
+  visibility: hidden;
+  width: 100%;
+  z-index: 15;
+  overflow: auto;
+}
+
+.burger.burger_visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+.burger.burger_visible .burger__container {
+  opacity: 1;
+  top: 107px;
+}
 
 .burger__container {
-    text-align: center;
-    width: 100%;
-    position: absolute; 
-    left: 50%;
-    top: 0;
-    opacity: 0;
-    background-color: var(--background-color, #1B1A1B);
-    transform: translateX(-50%);
-    transition-duration: 0.5s;
-    transition-timing-function: ease-in-out;
-    padding: 58px 20px;
-    z-index: 12;
-    margin: 0 auto;
+  text-align: center;
+  width: 100%;
+  height: 383px;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  opacity: 0;
+  background-color: var(--background-color, #1b1a1b);
+  transform: translateX(-50%);
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+  padding: 58px 20px;
+  z-index: 20;
+  margin: 0 auto;
+}
+
+.burger__list {
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.burger__item {
+  height: 57px;
+}
+
+.burger__item:hover {
+  background-color: var(--pink-color, #cd06ff);
+}
+
+.burger__item:active {
+  background-color: var(--darker-than-darkpink-color, #6c0287);
+}
+
+.burger__link {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.burger__button {
+  display: none;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 14px;
+  text-transform: uppercase;
+  color: var(--white-color, #ffffff);
+  background-color: inherit;
+  border: 2px solid var(--pink-color, #cd06ff);
+  border-radius: 6px;
+  padding: 11px 23px;
+  transition: background-color 0.8s ease;
+  margin: 0 auto;
+}
+
+.burger__button:hover {
+  background-color: var(--darker-than-darkpink-color, #6c0287);
+  border: 3px solid var(--darker-than-darkpink-color, #6c0287);
+}
+
+.burger__button:focus {
+  background-color: var(--darker-than-darkpink-color, #6c0287);
+  border: 3px solid var(--darker-than-darkpink-color, #6c0287);
+}
+
+.burger__button:active {
+  background-color: var(--darker-than-darkpink-color, #6c0287);
+  border: 3px solid var(--darker-than-darkpink-color, #6c0287);
+}
+
+@media (max-width: 690px) {
+  .burger.burger_visible .burger__container {
+    top: 71px;
+  }
+
+  .burger__container {
+    height: 352px;
+    padding: 25px 20px 27px 20px;
   }
 
   .burger__list {
-    display: flex;
-    flex-direction: column;
-    text-transform: uppercase;
-    font-size: 22px;
-    font-weight: 400;
+    font-size: 14px;
     line-height: 22px;
-    gap: 39px;
+    margin-bottom: 25px;
+  }
+
+  .burger__item {
+    height: 48px;
   }
 
   .burger__button {
-    display: none;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 14px;
-    text-transform: uppercase;
-    color: var(--white-color, #ffffff);
-    background-color: inherit;
-    border: 2px solid var(--pink-color, #cd06ff);
-    border-radius: 6px;
-    padding: 11px 23px;
-    transition: background-color .8s ease;
-    margin: 0 auto;
+    display: block;
   }
-  
-  .burger__button:hover {
-    background-color: var(--darker-than-darkpink-color, #6c0287);
-    border: 3px solid var(--darker-than-darkpink-color, #6c0287);
-  }
-  
-  .burger__button:focus {
-    background-color: var(--darker-than-darkpink-color, #6c0287);
-    border: 3px solid var(--darker-than-darkpink-color, #6c0287);
-  }
-  
-  .burger__button:active {
-    background-color: var(--darker-than-darkpink-color, #6c0287);
-    border: 3px solid var(--darker-than-darkpink-color, #6c0287);
-  }
-
-
-  @media (max-width: 690px) {
-    .burger.burger_visible .burger__container {
-        top: 71px;
-      }
-
-    .burger__container {
-        padding: 36px 20px 27px 20px;
-    }
-
-    .burger__list {
-        font-size: 14px;
-        line-height: 22px;
-        gap: 26px;
-        margin-bottom: 38px;
-      }
-
-    .burger__button {
-        display: block;
-    }
-  }
+}

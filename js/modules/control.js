@@ -1,6 +1,13 @@
 import { getElements } from "./getElements.js";
 
-const { modal, btnBurger, burger } = getElements();
+const { modal, btnBurger, burger, page } = getElements();
+
+
+const closeModal = () => {
+  if (modal.classList.contains("modal_visible")) {
+    modal.classList.remove("modal_visible");
+  }
+}
 
 export const addOpenModal = () => {
   const requestCall = document.querySelectorAll(
@@ -8,23 +15,23 @@ export const addOpenModal = () => {
   );
   requestCall.forEach((btn) => {
     btn.addEventListener("click", () => {
-      modal.classList.add("modal_visible");
-
+      modal.classList.toggle("modal_visible");
       closeBurger();
+      page.style.overflow = 'hidden';
     });
   });
 };
 
 export const addCloseModal = () => {
-  modal.addEventListener("click", (e) => {
-    console.log(e.target);
+  page.addEventListener("click", (e) => {
     if (
       e.target === modal ||
       e.target.closest(".modal__close") ||
-      e.target.classList.contains("header")
+      e.target.classList.contains("header__container")
     ) {
-      modal.classList.remove("modal_visible");
-    }
+      closeModal();
+      page.style.overflow = '';
+    } 
   });
 };
 
@@ -44,16 +51,21 @@ const closeBurger = () => {
 };
 
 export const addOpenBurger = () => {
-  btnBurger.addEventListener("click", () => {
-    burger.classList.add("burger_visible");
-    changeBtnBurger();
+  btnBurger.addEventListener("click", (e) => {
+      burger.classList.toggle("burger_visible");
+      closeModal();
+      changeBtnBurger();
+      page.style.overflow = 'hidden';   
   });
 };
 
 export const addCloseBurger = () => {
-  burger.addEventListener("click", (e) => {
-    if (e.target === burger || e.target === btnBurger || e.target.closest('.burger__item')) {
+   page.addEventListener("click", (e) => {
+    if ((e.target.classList.contains('burger')) ||
+    (e.target.closest('.burger')) ||
+    (e.target.classList.contains('header__container'))) {
       closeBurger();
+      page.style.overflow = '';
     }
   });
 };

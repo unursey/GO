@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" type="image/svg+xml" href="img/icon.svg" />
     <title>Modul03 END</title>
-    <script type='module' src="./js/script.js" defer></script>
+    <script type="module" src="./js/script.js" defer></script>
     <link rel="stylesheet" href="css/style.css" />
   </head>
-  <body>
+  <body class="page">
     <header class="header">
-      <div class="container header-container">
+      <div class="container header__container">
         <button class="header__button-nav" aria-label="menu">
           <svg class="header__button-icon" xmlns="http://www.w3.org/2000/svg">
             <use href="./img/header/menu.svg#menu"></use>
@@ -48,7 +48,9 @@
 
         <button class="header__button">Заказать звонок</button>
       </div>
+    </header>
 
+    <main>
       <div class="burger">
         <div class="burger__container">
           <nav class="burger__nav">
@@ -73,9 +75,7 @@
           <button class="burger__button">Заказать звонок</button>
         </div>
       </div>
-    </header>
 
-    <main>
       <section class="home">
         <div class="container">
           <div class="home__content">
@@ -680,7 +680,9 @@
 
               <div class="question__text-wrapper">
                 <p class="question__text">
-                  Да, забронировать комнату вы можете онлайн, заполнив форму на нашем сайте. Также вы можете забронировать комнату позвонив по телефону 8 (999) 958 - 48 - 38
+                  Да, забронировать комнату вы можете онлайн, заполнив форму на
+                  нашем сайте. Также вы можете забронировать комнату позвонив по
+                  телефону 8 (999) 958 - 48 - 38
                 </p>
               </div>
             </li>
@@ -704,7 +706,9 @@
 
               <div class="question__text-wrapper">
                 <p class="question__text">
-                  Да, забронировать комнату вы можете онлайн, заполнив форму на нашем сайте. Также вы можете забронировать комнату позвонив по телефону 8 (999) 958 - 48 - 38
+                  Да, забронировать комнату вы можете онлайн, заполнив форму на
+                  нашем сайте. Также вы можете забронировать комнату позвонив по
+                  телефону 8 (999) 958 - 48 - 38
                 </p>
               </div>
             </li>
@@ -714,17 +718,23 @@
 
               <div class="question__text-wrapper">
                 <p class="question__text">
-                  Да, забронировать комнату вы можете онлайн, заполнив форму на нашем сайте. Также вы можете забронировать комнату позвонив по телефону 8 (999) 958 - 48 - 38
+                  Да, забронировать комнату вы можете онлайн, заполнив форму на
+                  нашем сайте. Также вы можете забронировать комнату позвонив по
+                  телефону 8 (999) 958 - 48 - 38
                 </p>
               </div>
             </li>
 
             <li class="question__item">
-              <button class="question__button">Какая комната самая популярная?</button>
+              <button class="question__button">
+                Какая комната самая популярная?
+              </button>
 
               <div class="question__text-wrapper">
                 <p class="question__text">
-                  Да, забронировать комнату вы можете онлайн, заполнив форму на нашем сайте. Также вы можете забронировать комнату позвонив по телефону 8 (999) 958 - 48 - 38
+                  Да, забронировать комнату вы можете онлайн, заполнив форму на
+                  нашем сайте. Также вы можете забронировать комнату позвонив по
+                  телефону 8 (999) 958 - 48 - 38
                 </p>
               </div>
             </li>
@@ -735,10 +745,7 @@
       <div class="modal">
         <form class="modal__form">
           <button class="modal__close" type="button" aria-label="close">
-            <svg
-              class="modal__close-img"
-              xmlns="http://www.w3.org/2000/svg"
-            >
+            <svg class="modal__close-img" xmlns="http://www.w3.org/2000/svg">
               <use href="./img/header/menu.svg#close"></use>
             </svg>
           </button>
@@ -746,15 +753,25 @@
           <h2 class="modal__title">Заказать звонок</h2>
 
           <div class="modal__group">
-              <label class="modal__label" for="name">Имя</label>
-              <input class="modal__input" name="name" 
-                  id="name" type="text" required>
+            <label class="modal__label" for="name">Имя</label>
+            <input
+              class="modal__input"
+              name="name"
+              id="name"
+              type="text"
+              required
+            />
           </div>
 
           <div class="modal__group">
-              <label class="modal__label" for="phone">Телефон</label>
-              <input class="modal__input" name="phone" 
-                  id="phone" type="text" required>
+            <label class="modal__label" for="phone">Телефон</label>
+            <input
+              class="modal__input"
+              name="phone"
+              id="phone"
+              type="text"
+              required
+            />
           </div>
 
           <button class="modal__button" type="submit">Позвонить мне</button>
@@ -787,7 +804,11 @@
             <nav class="contacts__nav">
               <ul class="contacts__list">
                 <li class="contacts__item">
-                  <a class="contacts__link" href="https://vk.com" target="_blank">
+                  <a
+                    class="contacts__link"
+                    href="https://vk.com"
+                    target="_blank"
+                  >
                     <svg
                       tabindex="0"
                       class="contacts__image"
@@ -815,33 +836,29 @@
                 </li>
 
                 <li class="contacts__item">
-                  <a
-                    class="contacts__link"
-                    href="#"
-                    target="_blank"
-                  >
+                  <a class="contacts__link" href="#" target="_blank">
                     <svg
                       tabindex="0"
                       class="contacts__image"
                       xmlns="http://www.w3.org/2000/svg"
                     >
-                      <use href="./img/contacts/contacts-nav.svg#printerest"></use>
+                      <use
+                        href="./img/contacts/contacts-nav.svg#printerest"
+                      ></use>
                     </svg>
                   </a>
                 </li>
 
                 <li class="contacts__item">
-                  <a
-                    class="contacts__link"
-                    href="#"
-                    target="_blank"
-                  >
+                  <a class="contacts__link" href="#" target="_blank">
                     <svg
                       tabindex="0"
                       class="contacts__image"
                       xmlns="http://www.w3.org/2000/svg"
                     >
-                      <use href="./img/contacts/contacts-nav.svg#stumbleupon"></use>
+                      <use
+                        href="./img/contacts/contacts-nav.svg#stumbleupon"
+                      ></use>
                     </svg>
                   </a>
                 </li>

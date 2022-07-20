@@ -1,12 +1,15 @@
 .header {
+  position: relative;
   padding-top: 31px;
+  background-color: inherit;
+  z-index: 100;
 }
 
 .header__logo {
   height: 66px;
 }
 
-.header-container {
+.header__container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -142,6 +145,7 @@
 @media (max-width: 690px) {
   .header {
     padding-top: 26px;
+    z-index: 21;
   }
 
   .header__logo {
