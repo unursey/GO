@@ -27,7 +27,8 @@ export const addCloseModal = () => {
     if (
       e.target === modal ||
       e.target.closest(".modal__close") ||
-      e.target.classList.contains("header__container")
+      e.target.classList.contains("header__container") ||
+      e.target.classList.contains('header__link')
     ) {
       closeModal();
       page.style.overflow = '';
