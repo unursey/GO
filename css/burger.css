@@ -18,7 +18,7 @@
 
 .burger.burger_visible .burger__container {
   opacity: 1;
-  top: 107px;
+  /* top: 107px; */
 }
 
 .burger__container {
@@ -27,12 +27,12 @@
   height: 383px;
   position: absolute;
   left: 50%;
-  top: 0;
+  top: 107px;
   opacity: 0;
   background-color: var(--background-color, #1b1a1b);
   transform: translateX(-50%);
-  transition-duration: 0.5s;
-  transition-timing-function: ease-in-out;
+  /* transition-duration: 0.5s;
+  transition-timing-function: ease-in-out; */
   padding: 58px 20px;
   z-index: 20;
   margin: 0 auto;

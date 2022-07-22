@@ -1,5 +1,6 @@
 import { getElements } from "./getElements.js";
-
+import { openAnimationBurger, closeAnimationBurger } from "./animation.js";
+ 
 const { modal, btnBurger, burger, page } = getElements();
 
 
@@ -44,19 +45,26 @@ const changeBtnBurger = () => {
   buttonClose.classList.toggle("header__button-close_hide");
 };
 
-const closeBurger = () => {
-  if (burger.classList.contains("burger_visible")) {
+const closeBurger = () => { 
+  if (burger.classList.contains("burger_visible")) {  
     burger.classList.remove("burger_visible");
-    changeBtnBurger();
+    changeBtnBurger(); 
   }
 };
 
 export const addOpenBurger = () => {
-  btnBurger.addEventListener("click", (e) => {
-      burger.classList.toggle("burger_visible");
+  btnBurger.addEventListener("click", () => { 
+      if (!(burger.classList.contains("burger_visible"))) { 
+        openAnimationBurger();
+      } 
+      
+      if ((burger.classList.contains("burger_visible"))) { 
+        closeAnimationBurger();
+      }
+      burger.classList.toggle("burger_visible");   
       closeModal();
       changeBtnBurger();
-      page.style.overflow = 'hidden';   
+      page.style.overflow = 'hidden';    
   });
 };
 
@@ -65,6 +73,7 @@ export const addCloseBurger = () => {
     if ((e.target.classList.contains('burger')) ||
     (e.target.closest('.burger')) ||
     (e.target.classList.contains('header__container'))) {
+      closeAnimationBurger();
       closeBurger();
       page.style.overflow = '';
     }
