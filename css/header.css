@@ -105,19 +105,22 @@
     background: transparent;
     border: none;
     outline: none;
+    padding: 4px;
   }
 
+  .header__button-icon,
   .header__button-close {
     fill: var(--darker-than-darkpink-color, #6C0287);
-    width: 54px;
-    height: 41.72px;
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 100%;
   }
 
-  .header__button-icon {
+  /* .header__button-icon {
     fill: var(--darker-than-darkpink-color, #6C0287);
     width: 54px;
     height: 29px;
-  }
+  } */
 
   .header__button-icon:hover,
   .header__button-close:hover {
