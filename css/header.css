@@ -99,7 +99,7 @@
 
   .header__button-nav {
     display: block;
-    width: 54px;
+    width: 62px;
     height: 60px;
     padding: 0;
     background: transparent;
@@ -107,17 +107,16 @@
     outline: none;
   }
 
-  .header__button-icon,
   .header__button-close {
     fill: var(--darker-than-darkpink-color, #6C0287);
     width: 54px;
-    height: 29px;
+    height: 41.72px;
   }
 
-  .header__button-close {
+  .header__button-icon {
     fill: var(--darker-than-darkpink-color, #6C0287);
-    width: 41.72px;
-    height: 41.72px;
+    width: 54px;
+    height: 29px;
   }
 
   .header__button-icon:hover,

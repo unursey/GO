@@ -2,7 +2,7 @@ import {
     addOpenModal, 
     addCloseModal, 
     addOpenBurger, 
-    addCloseBurger 
+    addCloseBurger,
 } from './control.js';
 
 import {
@@ -16,5 +16,4 @@ export const init = () => {
     addOpenBurger();
     addCloseBurger();
     acc();
-
 }

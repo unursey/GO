@@ -4,7 +4,6 @@ export const getElements = () => {
   const btnBurger = page.querySelector(".header__button-nav");
   const burger = page.querySelector(".burger");
   const burgerMenu = page.querySelector(".burger__container");
-  
 
   return {
     modal,
