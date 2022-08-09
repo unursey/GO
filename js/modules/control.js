@@ -6,6 +6,7 @@ const { modal, btnBurger, burger, page } = getElements();
 const closeModal = () => {
   if (modal.classList.contains("modal_visible")) {
     modal.classList.remove("modal_visible");
+    document.querySelector('.modal__form').reset();
   }
 };
 

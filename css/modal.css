@@ -68,6 +68,9 @@
 .modal__group {
   max-width: 280px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
 }
 
 .modal__label {
@@ -84,7 +87,6 @@
   line-height: 28px;
   padding: 0 20px;
   margin-top: 5px;
-  margin-bottom: 40px;
 }
 
 .modal__input:focus {

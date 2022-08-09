@@ -7,8 +7,10 @@ import {
 
 import {
     acc
-} from './acc.js'
+} from './acc.js';
 
+import { swiper } from './slider.js';
+import { valid } from './valid.js';
 
 export const init = () => {
     addOpenModal();
@@ -16,4 +18,6 @@ export const init = () => {
     addOpenBurger();
     addCloseBurger();
     acc();
+    swiper;
+    valid();
 }

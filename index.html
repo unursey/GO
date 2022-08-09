@@ -5,8 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" type="image/svg+xml" href="img/icon.svg" />
     <title>Modul03 END</title>
-    <script type="module" src="./js/script.js" defer></script>
     <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <script defer src="./js/plagins/swiper-bundle.min.js"></script>
+    <script defer src="./js/plagins/axios.min.js"></script>
+    <script defer src="./js/plagins/just-validate.production.min.js"></script>
+    <script defer src="./js/plagins/inputmask.min.js"></script>
+
+    <script defer type="module" src="./js/script.js"></script>
   </head>
   <body class="page">
     <header class="header">
@@ -107,75 +116,82 @@
           <h2 class="range__title">
             У нас есть всё для классного&nbsp;<span> </span> отдыха с друзьями!
           </h2>
-          <ul class="range__list">
-            <li class="range__item card">
-              <figure class="card__content">
-                <img class="card__image" src="img/range/vr.jpg" alt="VR очки" />
-                <figcaption class="card__title">VR очки</figcaption>
-              </figure>
-            </li>
+          <div class="range__container">
+            <div class="range__swiper swiper">
+              <ul class="range__list swiper-wrapper">
+                <li class="swiper-slide card">
+                <figure class="card__content">
+                  <img class="card__image" src="img/range/vr.jpg" alt="VR очки" />
+                  <figcaption class="card__title">VR очки</figcaption>
+                </figure>
+                </li>
 
-            <li class="range__item card">
-              <figure class="card__content">
-                <img
-                  class="card__image"
-                  src="img/range/audio.jpg"
-                  alt="Аудио-система 5.1 с отличным звуком"
-                />
-                <figcaption class="card__title">
-                  Аудио-система 5.1 с&nbsp;отличным&nbsp;звуком
-                </figcaption>
-              </figure>
-            </li>
+                <li class="swiper-slide card">
+                <figure class="card__content">
+                  <img
+                    class="card__image"
+                    src="img/range/audio.jpg"
+                    alt="Аудио-система 5.1 с отличным звуком"
+                  />
+                  <figcaption class="card__title">
+                    Аудио-система 5.1 с&nbsp;отличным&nbsp;звуком
+                  </figcaption>
+                </figure>
+                </li>
 
-            <li class="range__item card">
-              <figure class="card__content">
-                <img
-                  class="card__image"
-                  src="img/range/micro.jpg"
-                  alt="Караоке (4 микрофона)"
-                />
-                <figcaption class="card__title">
-                  Караоке (4 микрофона)
-                </figcaption>
-              </figure>
-            </li>
+                <li class="swiper-slide card">
+                <figure class="card__content">
+                  <img
+                    class="card__image"
+                    src="img/range/micro.jpg"
+                    alt="Караоке (4 микрофона)"
+                  />
+                  <figcaption class="card__title">
+                    Караоке (4 микрофона)
+                  </figcaption>
+                </figure>
+                </li>
 
-            <li class="range__item card">
-              <figure class="card__content">
-                <img
-                  class="card__image"
-                  src="img/range/game.jpg"
-                  alt="Настольные игры"
-                />
-                <figcaption class="card__title">Настольные игры</figcaption>
-              </figure>
-            </li>
+                <li class="swiper-slide card">
+                <figure class="card__content">
+                  <img
+                    class="card__image"
+                    src="img/range/game.jpg"
+                    alt="Настольные игры"
+                  />
+                  <figcaption class="card__title">Настольные игры</figcaption>
+                </figure>
+                </li>
 
-            <li class="range__item card">
-              <figure class="card__content">
-                <img
-                  class="card__image"
-                  src="img/range/netflix.jpg"
-                  alt="Кино сервисы Netflix, IVI, MegoGo, КиноПоиск, Okko"
-                />
-                <figcaption class="card__title">
-                  Кино сервисы Netflix, IVI, MegoGo, КиноПоиск, Okko
-                </figcaption>
-              </figure>
-            </li>
+                <li class="swiper-slide card">
+                  <figure class="card__content">
+                    <img
+                      class="card__image"
+                      src="img/range/netflix.jpg"
+                      alt="Кино сервисы Netflix, IVI, MegoGo, КиноПоиск, Okko"
+                    />
+                    <figcaption class="card__title">
+                      Кино сервисы Netflix, IVI, MegoGo, КиноПоиск, Okko
+                    </figcaption>
+                  </figure>
+                </li>
 
-            <li class="range__item card">
-              <figure class="card__content">
-                <img
-                  class="card__image"
-                  src="img/range/sony.jpg"
-                  alt="PlayStation 5"
-                />
-                <figcaption class="card__title">PlayStation 5</figcaption>
-              </figure>
-            </li>
-          </ul>
+                <li class="swiper-slide card">
+                  <figure class="card__content">
+                    <img
+                      class="card__image"
+                      src="img/range/sony.jpg"
+                      alt="PlayStation 5"
+                    />
+                    <figcaption class="card__title">PlayStation 5</figcaption>
+                  </figure>
+                </li>
+              </ul> 
+                 
+            </div>
+            <button class="range__button-prev" aria-label="стрелка назад"></button>
+            <button class="range__button-next" aria-label="стрелка вперед"></button>
+          </div>
         </div>
       </section>
 
@@ -753,9 +769,9 @@
           <h2 class="modal__title">Заказать звонок</h2>
 
           <div class="modal__group">
-            <label class="modal__label" for="name">Имя</label>
+            <label class="modal__label modal__label-name" for="name">Имя</label>
             <input
-              class="modal__input"
+              class="modal__input modal__input-name"
               name="name"
               id="name"
               type="text"
@@ -764,9 +780,9 @@
           </div>
 
           <div class="modal__group">
-            <label class="modal__label" for="phone">Телефон</label>
+            <label class="modal__label modal__label-phone" for="phone">Телефон</label>
             <input
-              class="modal__input"
+              class="modal__input modal__input-phone"
               name="phone"
               id="phone"
               type="text"
