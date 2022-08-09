@@ -1,12 +1,18 @@
 export const valid = () => {
     const modalTitle = document.querySelector('.modal__title');
     const inputPhone = document.querySelector('.modal__input-phone');
+    const form = document.querySelector('.modal__form');
 
     const phoneMask = new Inputmask('+7 (999) 999-99-99');
     phoneMask.mask(inputPhone);
 
     const justValidate = new JustValidate('.modal__form');
-    justValidate
+
+
+
+form.addEventListener('change', () => {
+
+justValidate
         .addField('.modal__input-name', [
             {
                 rule: 'required',
@@ -46,5 +52,8 @@ export const valid = () => {
                 modalTitle.textContent = 'Ошибка, попробуйте позже.';
             })
         });
+
+})
+    
 
 };
